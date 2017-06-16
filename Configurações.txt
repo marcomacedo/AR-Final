@@ -1,0 +1,79 @@
+-> Configuração rede Chicago
+RCORE1
+F0/0 - 10.2.35.1/30 - 2002:A:A:25::1/126 - RCOREC2
+F0/1 - 10.2.19.1/24 - 2002:A:A:15::1/64 - SW1
+F1/0 - 200.1.0.193/30 - 2002:A:A:35::1/126 - ISPUS1
+F2/0 - 200.1.0.197/30 - 2002:A:A:35::5/126 - ISPUS2
+
+RCORE2
+F0/0 - 10.2.35.2/30 - 2002:A:A:25::2/126 - RCOREC1
+F0/1 - 10.2.19.2/24 - 2002:A:A:15::2/64 - SW1
+F1/0 - 200.1.0.201/30 - 2002:A:A:35::9/126 - ISPUS2
+F2/0 - 200.1.0.205/30 - 2002:A:A:35::D/126 - ISPUS1
+
+PC1 - 10.2.19.10/24 GW - 10.2.19.1/24 - 2002:A:A:15::10/64 - SW1
+
+ISPUS1
+F0/0 - 100.0.0.1/24 - 2001::1/64 - SW2
+F1/0 - 200.1.0.194/30 - 2002:A:A:35::2/126 - RCOREC1
+F2/0 - 200.1.0.206/30 - 2002:A:A:35::E/126 - RCOREC2
+
+ISPUS2
+F0/0 - 100.0.0.2/24 - 2001::2/64 - SW2
+F1/0 - 200.1.0.202/30 - 2002:A:A:35::A/126 - RCOREC2
+F2/0 - 200.1.0.198/30 - 2002:A:A:35::6/126 - RCOREC1
+
+->Configuração rede Aveiro
+ISPPT1
+F0/0 - 100.0.0.3/24 - 2001::3/64 - SW2
+
+ISPPT2
+F0/0 - 100.0.0.4/24 - SW2
+
+CORE - 10.0.16.0/24i
+
+1. Configuração rede Antiga
+
+Configuração do SWL3_A
+interface f0/0
+ip address 192.168.100.10 255.255.255.0
+ip ospf 10 area 0
+interface f0/1
+ip address 192.168.101.10 255.255.255.0
+ip ospf 10 area 0
+interface vlan 1
+ip address 192.168.0.10 255.255.252.0
+ip ospf 10 area 0
+interface fastEthernet 1/14
+switchport mode trunk
+switchport trunk encapsulation dot1q
+interface fastEthernet 1/15
+switchport mode trunk
+switchport trunk encapsulation dot1q
+
+Configuração do SWL3_B
+interface f0/0
+ip address 192.168.100.11 255.255.255.0
+ip ospf 10 area 0
+interface f0/1
+ip address 192.168.101.11 255.255.255.0
+ip ospf 10 area 0
+interface vlan 1
+ip address 192.168.0.11 255.255.252.0
+ip ospf 10 area 0
+interface fastEthernet 1/14
+switchport mode trunk
+switchport trunk encapsulation dot1q
+interface fastEthernet 1/15
+switchport mode trunk
+switchport trunk encapsulation dot1q
+
+2. VLAN END-TO-END (WIFI Administração)
+
+3. VLAN LOCAL (DATA - Comercial)
+
+4. VLAN LOCAL (DATA - Técnicos)
+
+5. VLAN LOCAL (DATA - Investigação)
+
+6. VLAN LOCAL (DATA - Engenharia)

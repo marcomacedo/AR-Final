@@ -1,0 +1,33 @@
+Jun 16 15:36:58.073 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jun 16 15:36:58.073 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63118.
+Jun 16 15:36:58.171 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 16 15:36:58.187 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\GNS3\projects\Projeto\project-files\dynamips 
+Jun 16 15:36:58.187 GENERAL: working_dir=D:\Documentos\GNS3\projects\Projeto\project-files\dynamips
+Jun 16 15:36:58.202 HYPERVISOR: exec_cmd: vm create RCOREA2 8 c3725 
+Jun 16 15:36:58.202 VM: VM RCOREA2 created.
+Jun 16 15:36:58.233 HYPERVISOR: exec_cmd: vm set_con_tcp_port RCOREA2 5008 
+Jun 16 15:36:58.249 HYPERVISOR: exec_cmd: c3725 get_mac_addr RCOREA2 
+Jun 16 15:36:58.269 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 15:36:58.285 HYPERVISOR: exec_cmd: vm set_idle_pc RCOREA2 0x60a6a1e0 
+Jun 16 15:36:58.301 HYPERVISOR: exec_cmd: vm set_nvram RCOREA2 256 
+Jun 16 15:36:58.316 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 15:36:58.332 HYPERVISOR: exec_cmd: vm slot_add_binding RCOREA2 2 0 NM-1FE-TX 
+Jun 16 15:36:58.359 HYPERVISOR: exec_cmd: vm set_exec_area RCOREA2 64 
+Jun 16 15:36:58.381 HYPERVISOR: exec_cmd: vm set_disk0 RCOREA2 0 
+Jun 16 15:36:58.400 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 15:36:58.415 HYPERVISOR: exec_cmd: vm slot_add_binding RCOREA2 1 0 NM-1FE-TX 
+Jun 16 15:36:58.444 HYPERVISOR: exec_cmd: c3725 set_mac_addr RCOREA2 c208.2298.0000 
+Jun 16 15:36:58.478 HYPERVISOR: exec_cmd: vm set_ios RCOREA2 D:/Documentos/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 16 15:36:58.511 HYPERVISOR: exec_cmd: vm set_config RCOREA2 configs/i8_startup-config.cfg 
+Jun 16 15:39:03.400 HYPERVISOR: exec_cmd: vm extract_config RCOREA2 
+Jun 16 15:42:56.412 HYPERVISOR: exec_cmd: vm extract_config RCOREA2 
+Jun 16 16:17:56.800 HYPERVISOR: exec_cmd: vm extract_config RCOREA2 
+Jun 16 16:18:33.604 HYPERVISOR: exec_cmd: vm extract_config RCOREA2 
+Jun 16 16:18:36.230 HYPERVISOR: exec_cmd: vm extract_config RCOREA2 
+Jun 16 16:18:37.591 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 16:18:37.638 HYPERVISOR: exec_cmd: vm extract_config RCOREA2 
+Jun 16 16:18:37.720 HYPERVISOR: exec_cmd: vm delete RCOREA2 
+Jun 16 16:18:37.720 VM: VM RCOREA2 destroyed.
+Jun 16 16:18:37.783 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 16 16:18:37.897 HYPERVISOR: Stopped.
+Jun 16 16:18:37.897 GENERAL: reset done.

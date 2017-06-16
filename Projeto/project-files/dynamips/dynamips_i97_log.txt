@@ -1,0 +1,31 @@
+Jun 16 15:36:59.059 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jun 16 15:36:59.059 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63138.
+Jun 16 15:36:59.157 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 16 15:36:59.177 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\GNS3\projects\Projeto\project-files\dynamips 
+Jun 16 15:36:59.178 GENERAL: working_dir=D:\Documentos\GNS3\projects\Projeto\project-files\dynamips
+Jun 16 15:36:59.205 HYPERVISOR: exec_cmd: vm create ESW5 15 c3725 
+Jun 16 15:36:59.207 VM: VM ESW5 created.
+Jun 16 15:36:59.225 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW5 5017 
+Jun 16 15:36:59.240 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW5 
+Jun 16 15:36:59.259 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 16 15:36:59.276 HYPERVISOR: exec_cmd: vm set_idle_pc ESW5 0x60a6a1e0 
+Jun 16 15:36:59.293 HYPERVISOR: exec_cmd: vm set_nvram ESW5 256 
+Jun 16 15:36:59.313 HYPERVISOR: exec_cmd: vm set_disk0 ESW5 1 
+Jun 16 15:36:59.331 HYPERVISOR: exec_cmd: vm set_exec_area ESW5 64 
+Jun 16 15:36:59.350 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 16 15:36:59.372 HYPERVISOR: exec_cmd: vm slot_add_binding ESW5 1 0 NM-16ESW 
+Jun 16 15:36:59.389 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESW5 c20f.3e60.0000 
+Jun 16 15:36:59.417 HYPERVISOR: exec_cmd: vm set_ios ESW5 D:/Documentos/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 16 15:36:59.434 HYPERVISOR: exec_cmd: vm set_config ESW5 configs/i15_startup-config.cfg 
+Jun 16 15:39:03.468 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Jun 16 15:42:56.464 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Jun 16 16:17:56.914 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Jun 16 16:18:33.651 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Jun 16 16:18:36.290 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Jun 16 16:18:37.591 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 16 16:18:37.638 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Jun 16 16:18:37.720 HYPERVISOR: exec_cmd: vm delete ESW5 
+Jun 16 16:18:37.720 VM: VM ESW5 destroyed.
+Jun 16 16:18:37.783 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 16 16:18:37.897 HYPERVISOR: Stopped.
+Jun 16 16:18:37.897 GENERAL: reset done.

@@ -1,0 +1,49 @@
+Jun 16 15:36:58.041 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jun 16 15:36:58.041 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63116.
+Jun 16 15:36:58.155 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 16 15:36:58.171 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\GNS3\projects\Projeto\project-files\dynamips 
+Jun 16 15:36:58.171 GENERAL: working_dir=D:\Documentos\GNS3\projects\Projeto\project-files\dynamips
+Jun 16 15:36:58.202 HYPERVISOR: exec_cmd: vm create RCOREA1 7 c3725 
+Jun 16 15:36:58.202 VM: VM RCOREA1 created.
+Jun 16 15:36:58.218 HYPERVISOR: exec_cmd: vm set_con_tcp_port RCOREA1 5007 
+Jun 16 15:36:58.233 HYPERVISOR: exec_cmd: c3725 get_mac_addr RCOREA1 
+Jun 16 15:36:58.249 HYPERVISOR: exec_cmd: vm get_status RCOREA1 
+Jun 16 15:36:58.269 HYPERVISOR: exec_cmd: vm set_idle_pc RCOREA1 0x60a6a1e0 
+Jun 16 15:36:58.285 HYPERVISOR: exec_cmd: vm set_nvram RCOREA1 256 
+Jun 16 15:36:58.301 HYPERVISOR: exec_cmd: vm get_status RCOREA1 
+Jun 16 15:36:58.316 HYPERVISOR: exec_cmd: vm slot_add_binding RCOREA1 2 0 NM-1FE-TX 
+Jun 16 15:36:58.332 HYPERVISOR: exec_cmd: vm set_exec_area RCOREA1 64 
+Jun 16 15:36:58.368 HYPERVISOR: exec_cmd: vm set_disk0 RCOREA1 0 
+Jun 16 15:36:58.385 HYPERVISOR: exec_cmd: vm get_status RCOREA1 
+Jun 16 15:36:58.408 HYPERVISOR: exec_cmd: vm slot_add_binding RCOREA1 1 0 NM-1FE-TX 
+Jun 16 15:36:58.415 HYPERVISOR: exec_cmd: c3725 set_mac_addr RCOREA1 c207.36b4.0000 
+Jun 16 15:36:58.455 HYPERVISOR: exec_cmd: vm set_ios RCOREA1 D:/Documentos/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 16 15:36:58.498 HYPERVISOR: exec_cmd: vm set_config RCOREA1 configs/i7_startup-config.cfg 
+Jun 16 15:39:03.483 HYPERVISOR: exec_cmd: vm extract_config RCOREA1 
+Jun 16 15:41:41.948 HYPERVISOR: exec_cmd: vm get_status RCOREA1 
+Jun 16 15:41:41.952 HYPERVISOR: exec_cmd: vm slot_remove_binding RCOREA1 1 0 
+Jun 16 15:41:41.956 HYPERVISOR: exec_cmd: vm get_status RCOREA1 
+Jun 16 15:41:41.959 HYPERVISOR: exec_cmd: vm slot_add_binding RCOREA1 1 0 NM-4T 
+Jun 16 15:41:41.963 HYPERVISOR: exec_cmd: vm get_status RCOREA1 
+Jun 16 15:41:41.967 HYPERVISOR: exec_cmd: vm slot_remove_binding RCOREA1 2 0 
+Jun 16 15:41:41.971 HYPERVISOR: exec_cmd: vm get_status RCOREA1 
+Jun 16 15:41:41.975 HYPERVISOR: exec_cmd: vm slot_add_binding RCOREA1 2 0 NM-4T 
+Jun 16 15:41:53.681 HYPERVISOR: exec_cmd: vm get_status RCOREA1 
+Jun 16 15:41:53.697 HYPERVISOR: exec_cmd: vm slot_remove_binding RCOREA1 1 0 
+Jun 16 15:41:53.697 HYPERVISOR: exec_cmd: vm get_status RCOREA1 
+Jun 16 15:41:53.697 HYPERVISOR: exec_cmd: vm slot_add_binding RCOREA1 1 0 NM-1FE-TX 
+Jun 16 15:41:53.697 HYPERVISOR: exec_cmd: vm get_status RCOREA1 
+Jun 16 15:41:53.713 HYPERVISOR: exec_cmd: vm slot_remove_binding RCOREA1 2 0 
+Jun 16 15:41:53.717 HYPERVISOR: exec_cmd: vm get_status RCOREA1 
+Jun 16 15:41:53.718 HYPERVISOR: exec_cmd: vm slot_add_binding RCOREA1 2 0 NM-1FE-TX 
+Jun 16 15:42:56.480 HYPERVISOR: exec_cmd: vm extract_config RCOREA1 
+Jun 16 16:17:56.946 HYPERVISOR: exec_cmd: vm extract_config RCOREA1 
+Jun 16 16:18:33.671 HYPERVISOR: exec_cmd: vm extract_config RCOREA1 
+Jun 16 16:18:36.305 HYPERVISOR: exec_cmd: vm extract_config RCOREA1 
+Jun 16 16:18:37.555 HYPERVISOR: exec_cmd: vm get_status RCOREA1 
+Jun 16 16:18:37.622 HYPERVISOR: exec_cmd: vm extract_config RCOREA1 
+Jun 16 16:18:37.685 HYPERVISOR: exec_cmd: vm delete RCOREA1 
+Jun 16 16:18:37.685 VM: VM RCOREA1 destroyed.
+Jun 16 16:18:37.752 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 16 16:18:37.897 HYPERVISOR: Stopped.
+Jun 16 16:18:37.897 GENERAL: reset done.

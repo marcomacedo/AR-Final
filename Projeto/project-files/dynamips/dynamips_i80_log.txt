@@ -1,0 +1,53 @@
+Jun 16 15:36:57.158 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jun 16 15:36:57.158 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63099.
+Jun 16 15:36:57.679 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 16 15:36:57.699 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\GNS3\projects\Projeto\project-files\dynamips 
+Jun 16 15:36:57.699 GENERAL: working_dir=D:\Documentos\GNS3\projects\Projeto\project-files\dynamips
+Jun 16 15:36:57.715 HYPERVISOR: exec_cmd: vm create RCOREC2 2 c3725 
+Jun 16 15:36:57.715 VM: VM RCOREC2 created.
+Jun 16 15:36:57.730 HYPERVISOR: exec_cmd: vm set_con_tcp_port RCOREC2 5002 
+Jun 16 15:36:57.730 HYPERVISOR: exec_cmd: c3725 get_mac_addr RCOREC2 
+Jun 16 15:36:57.746 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 16 15:36:57.762 HYPERVISOR: exec_cmd: vm set_idle_pc RCOREC2 0x60a6a1e0 
+Jun 16 15:36:57.777 HYPERVISOR: exec_cmd: vm set_nvram RCOREC2 256 
+Jun 16 15:36:57.793 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 16 15:36:57.813 HYPERVISOR: exec_cmd: vm slot_add_binding RCOREC2 2 0 NM-1FE-TX 
+Jun 16 15:36:57.829 HYPERVISOR: exec_cmd: vm set_exec_area RCOREC2 64 
+Jun 16 15:36:57.845 HYPERVISOR: exec_cmd: vm set_disk0 RCOREC2 0 
+Jun 16 15:36:57.860 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 16 15:36:57.876 HYPERVISOR: exec_cmd: vm slot_add_binding RCOREC2 1 0 NM-1FE-TX 
+Jun 16 15:36:57.891 HYPERVISOR: exec_cmd: c3725 set_mac_addr RCOREC2 c202.1c74.0000 
+Jun 16 15:36:57.927 HYPERVISOR: exec_cmd: vm set_ios RCOREC2 D:/Documentos/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 16 15:36:57.943 HYPERVISOR: exec_cmd: vm set_config RCOREC2 configs/i2_startup-config.cfg 
+Jun 16 15:36:59.945 HYPERVISOR: exec_cmd: nio create_udp udp-eb6216e0-f3bf-49f7-9155-157ac0f2abb3 10005 127.0.0.1 10004 
+Jun 16 15:36:59.953 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RCOREC2 0 0 udp-eb6216e0-f3bf-49f7-9155-157ac0f2abb3 
+Jun 16 15:36:59.962 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 16 15:37:00.102 HYPERVISOR: exec_cmd: nio create_udp udp-93317734-db75-4d3c-8912-9645e6d70666 10006 127.0.0.1 10007 
+Jun 16 15:37:00.135 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RCOREC2 0 1 udp-93317734-db75-4d3c-8912-9645e6d70666 
+Jun 16 15:37:00.149 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 16 15:37:00.227 HYPERVISOR: exec_cmd: nio create_udp udp-0a15f1c0-17d5-4d84-b6e9-c712323938b4 10013 127.0.0.1 10012 
+Jun 16 15:37:00.241 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RCOREC2 1 0 udp-0a15f1c0-17d5-4d84-b6e9-c712323938b4 
+Jun 16 15:37:00.265 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 16 15:37:00.420 HYPERVISOR: exec_cmd: nio create_udp udp-bfb3bba6-9d19-4f03-be5b-3a4153149e78 10021 127.0.0.1 10020 
+Jun 16 15:37:00.441 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RCOREC2 2 0 udp-bfb3bba6-9d19-4f03-be5b-3a4153149e78 
+Jun 16 15:37:00.463 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 16 15:39:03.416 HYPERVISOR: exec_cmd: vm extract_config RCOREC2 
+Jun 16 15:42:56.428 HYPERVISOR: exec_cmd: vm extract_config RCOREC2 
+Jun 16 15:43:05.802 HYPERVISOR: exec_cmd: vm set_ghost_status RCOREC2 2 
+Jun 16 15:43:05.802 HYPERVISOR: exec_cmd: vm set_ghost_file RCOREC2 c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 16 15:43:05.802 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 16 15:43:05.802 HYPERVISOR: exec_cmd: vm start RCOREC2 
+Jun 16 16:17:56.816 HYPERVISOR: exec_cmd: vm extract_config RCOREC2 
+Jun 16 16:18:31.603 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 16 16:18:31.621 HYPERVISOR: exec_cmd: vm stop RCOREC2 
+Jun 16 16:18:31.817 VM: VM RCOREC2 shutdown.
+Jun 16 16:18:31.834 HYPERVISOR: exec_cmd: vm extract_config RCOREC2 
+Jun 16 16:18:33.620 HYPERVISOR: exec_cmd: vm extract_config RCOREC2 
+Jun 16 16:18:36.247 HYPERVISOR: exec_cmd: vm extract_config RCOREC2 
+Jun 16 16:18:37.571 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 16 16:18:37.622 HYPERVISOR: exec_cmd: vm extract_config RCOREC2 
+Jun 16 16:18:37.703 HYPERVISOR: exec_cmd: vm delete RCOREC2 
+Jun 16 16:18:37.703 VM: VM RCOREC2 destroyed.
+Jun 16 16:18:37.767 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 16 16:18:37.897 HYPERVISOR: Stopped.
+Jun 16 16:18:37.897 GENERAL: reset done.

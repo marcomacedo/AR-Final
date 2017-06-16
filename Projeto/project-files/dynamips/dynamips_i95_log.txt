@@ -1,0 +1,13 @@
+Jun 16 15:36:58.766 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jun 16 15:36:58.766 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63135.
+Jun 16 15:36:58.854 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 16 15:36:58.874 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\GNS3\projects\Projeto\project-files\dynamips 
+Jun 16 15:36:58.874 GENERAL: working_dir=D:\Documentos\GNS3\projects\Projeto\project-files\dynamips
+Jun 16 15:36:58.894 HYPERVISOR: exec_cmd: ethsw create SW4 
+Jun 16 15:37:00.504 HYPERVISOR: exec_cmd: nio create_udp udp-2d2631c9-d945-4a5f-b8e9-f3bff2681848 10024 127.0.0.1 10025 
+Jun 16 15:37:00.532 HYPERVISOR: exec_cmd: ethsw add_nio SW4 udp-2d2631c9-d945-4a5f-b8e9-f3bff2681848 
+Jun 16 15:37:00.550 HYPERVISOR: exec_cmd: ethsw set_access_port SW4 udp-2d2631c9-d945-4a5f-b8e9-f3bff2681848 1 
+Jun 16 16:18:37.182 HYPERVISOR: exec_cmd: ethsw delete SW4 
+Jun 16 16:18:37.206 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 16 16:18:37.391 HYPERVISOR: Stopped.
+Jun 16 16:18:37.391 GENERAL: reset done.

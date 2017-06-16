@@ -1,0 +1,31 @@
+Jun 16 15:36:58.104 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jun 16 15:36:58.104 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63120.
+Jun 16 15:36:58.171 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 16 15:36:58.187 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\GNS3\projects\Projeto\project-files\dynamips 
+Jun 16 15:36:58.187 GENERAL: working_dir=D:\Documentos\GNS3\projects\Projeto\project-files\dynamips
+Jun 16 15:36:58.218 HYPERVISOR: exec_cmd: vm create ESWCOREA2 10 c3725 
+Jun 16 15:36:58.218 VM: VM ESWCOREA2 created.
+Jun 16 15:36:58.233 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESWCOREA2 5010 
+Jun 16 15:36:58.249 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESWCOREA2 
+Jun 16 15:36:58.269 HYPERVISOR: exec_cmd: vm get_status ESWCOREA2 
+Jun 16 15:36:58.285 HYPERVISOR: exec_cmd: vm set_idle_pc ESWCOREA2 0x60a6a1e0 
+Jun 16 15:36:58.301 HYPERVISOR: exec_cmd: vm set_nvram ESWCOREA2 256 
+Jun 16 15:36:58.316 HYPERVISOR: exec_cmd: vm set_disk0 ESWCOREA2 1 
+Jun 16 15:36:58.332 HYPERVISOR: exec_cmd: vm set_exec_area ESWCOREA2 64 
+Jun 16 15:36:58.365 HYPERVISOR: exec_cmd: vm get_status ESWCOREA2 
+Jun 16 15:36:58.385 HYPERVISOR: exec_cmd: vm slot_add_binding ESWCOREA2 1 0 NM-16ESW 
+Jun 16 15:36:58.406 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESWCOREA2 c20a.2b74.0000 
+Jun 16 15:36:58.415 HYPERVISOR: exec_cmd: vm set_ios ESWCOREA2 D:/Documentos/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 16 15:36:58.453 HYPERVISOR: exec_cmd: vm set_config ESWCOREA2 configs/i10_startup-config.cfg 
+Jun 16 15:39:03.468 HYPERVISOR: exec_cmd: vm extract_config ESWCOREA2 
+Jun 16 15:42:56.464 HYPERVISOR: exec_cmd: vm extract_config ESWCOREA2 
+Jun 16 16:17:56.914 HYPERVISOR: exec_cmd: vm extract_config ESWCOREA2 
+Jun 16 16:18:33.669 HYPERVISOR: exec_cmd: vm extract_config ESWCOREA2 
+Jun 16 16:18:36.290 HYPERVISOR: exec_cmd: vm extract_config ESWCOREA2 
+Jun 16 16:18:37.571 HYPERVISOR: exec_cmd: vm get_status ESWCOREA2 
+Jun 16 16:18:37.638 HYPERVISOR: exec_cmd: vm extract_config ESWCOREA2 
+Jun 16 16:18:37.705 HYPERVISOR: exec_cmd: vm delete ESWCOREA2 
+Jun 16 16:18:37.705 VM: VM ESWCOREA2 destroyed.
+Jun 16 16:18:37.767 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 16 16:18:37.897 HYPERVISOR: Stopped.
+Jun 16 16:18:37.897 GENERAL: reset done.
