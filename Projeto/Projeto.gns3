@@ -29,6 +29,116 @@
                 }
             },
             {
+                "description": "Link from RCOREC2 port FastEthernet0/1 to SW1 port 2",
+                "destination_node_id": 3,
+                "destination_port_id": 4,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": 73.25433425464075,
+                    "y": 29.214016989124218
+                },
+                "id": 2,
+                "source_node_id": 5,
+                "source_port_id": 14,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/1",
+                    "x": -4.754334254640753,
+                    "y": 8.785983010875782
+                }
+            },
+            {
+                "description": "Link from ISPUS2 port FastEthernet1/0 to RCOREC2 port FastEthernet1/0",
+                "destination_node_id": 5,
+                "destination_port_id": 276,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": 72.98523974296415,
+                    "y": 23.08655542779792
+                },
+                "id": 3,
+                "source_node_id": 7,
+                "source_port_id": 280,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": -6.985239742964211,
+                    "y": 20.91344457220208
+                }
+            },
+            {
+                "description": "Link from SW2 port 1 to ISPUS2 port FastEthernet0/0",
+                "destination_node_id": 7,
+                "destination_port_id": 17,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/0",
+                    "x": 68.30680249235127,
+                    "y": 3.2002739975791883
+                },
+                "id": 4,
+                "source_node_id": 8,
+                "source_port_id": 19,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": 0.19319750764873334,
+                    "y": 34.79972600242081
+                }
+            },
+            {
+                "description": "Link from SW2 port 2 to ISPUS1 port FastEthernet0/0",
+                "destination_node_id": 6,
+                "destination_port_id": 15,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/0",
+                    "x": 70.43315065679798,
+                    "y": 36.098199598014844
+                },
+                "id": 5,
+                "source_node_id": 8,
+                "source_port_id": 20,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": -1.9331506567979773,
+                    "y": 1.901800401985156
+                }
+            },
+            {
+                "description": "Link from ISPUS1 port FastEthernet2/0 to RCOREC2 port FastEthernet2/0",
+                "destination_node_id": 5,
+                "destination_port_id": 277,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f2/0",
+                    "x": 65.25062660803144,
+                    "y": -1.662144522196968
+                },
+                "id": 6,
+                "source_node_id": 6,
+                "source_port_id": 279,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f2/0",
+                    "x": 0.749373391968561,
+                    "y": 45.66214452219697
+                }
+            },
+            {
                 "description": "Link from RCOREC1 port FastEthernet0/1 to SW1 port 3",
                 "destination_node_id": 3,
                 "destination_port_id": 5,
@@ -39,7 +149,7 @@
                     "x": 71.76478686094151,
                     "y": -0.8779511176708752
                 },
-                "id": 2,
+                "id": 7,
                 "source_node_id": 4,
                 "source_port_id": 12,
                 "source_port_label": {
@@ -61,7 +171,7 @@
                     "x": 32.692316795226475,
                     "y": -17.9988166205639
                 },
-                "id": 3,
+                "id": 8,
                 "source_node_id": 4,
                 "source_port_id": 11,
                 "source_port_label": {
@@ -70,94 +180,6 @@
                     "text": "f0/0",
                     "x": 33.307683204773525,
                     "y": 61.9988166205639
-                }
-            },
-            {
-                "description": "Link from RCOREC2 port FastEthernet0/1 to SW1 port 2",
-                "destination_node_id": 3,
-                "destination_port_id": 4,
-                "destination_port_label": {
-                    "color": "#ff000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "2",
-                    "x": 73.25433425464075,
-                    "y": 29.214016989124218
-                },
-                "id": 4,
-                "source_node_id": 5,
-                "source_port_id": 14,
-                "source_port_label": {
-                    "color": "#ff000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "f0/1",
-                    "x": -4.754334254640753,
-                    "y": 8.785983010875782
-                }
-            },
-            {
-                "description": "Link from SW2 port 3 to ISPPT1 port FastEthernet0/0",
-                "destination_node_id": 9,
-                "destination_port_id": 27,
-                "destination_port_label": {
-                    "color": "#ff000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "f0/0",
-                    "x": 3.2828687663726726,
-                    "y": -4.774841012476088
-                },
-                "id": 5,
-                "source_node_id": 8,
-                "source_port_id": 21,
-                "source_port_label": {
-                    "color": "#ff000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "3",
-                    "x": 65.2171312336273,
-                    "y": 42.77484101247609
-                }
-            },
-            {
-                "description": "Link from SW2 port 1 to ISPUS2 port FastEthernet0/0",
-                "destination_node_id": 7,
-                "destination_port_id": 17,
-                "destination_port_label": {
-                    "color": "#ff000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "f0/0",
-                    "x": 68.30680249235127,
-                    "y": 3.2002739975791883
-                },
-                "id": 6,
-                "source_node_id": 8,
-                "source_port_id": 19,
-                "source_port_label": {
-                    "color": "#ff000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "1",
-                    "x": 0.19319750764873334,
-                    "y": 34.79972600242081
-                }
-            },
-            {
-                "description": "Link from ISPUS2 port FastEthernet1/0 to RCOREC2 port FastEthernet1/0",
-                "destination_node_id": 5,
-                "destination_port_id": 276,
-                "destination_port_label": {
-                    "color": "#ff000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "f1/0",
-                    "x": 72.98523974296415,
-                    "y": 23.08655542779792
-                },
-                "id": 7,
-                "source_node_id": 7,
-                "source_port_id": 280,
-                "source_port_label": {
-                    "color": "#ff000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "f1/0",
-                    "x": -6.985239742964211,
-                    "y": 20.91344457220208
                 }
             },
             {
@@ -171,7 +193,7 @@
                     "x": 65.31163791436836,
                     "y": 45.5787628023769
                 },
-                "id": 8,
+                "id": 9,
                 "source_node_id": 7,
                 "source_port_id": 281,
                 "source_port_label": {
@@ -180,28 +202,6 @@
                     "text": "f2/0",
                     "x": 0.6883620856316384,
                     "y": -1.5787628023769003
-                }
-            },
-            {
-                "description": "Link from SW2 port 2 to ISPUS1 port FastEthernet0/0",
-                "destination_node_id": 6,
-                "destination_port_id": 15,
-                "destination_port_label": {
-                    "color": "#ff000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "f0/0",
-                    "x": 70.43315065679798,
-                    "y": 36.098199598014844
-                },
-                "id": 9,
-                "source_node_id": 8,
-                "source_port_id": 20,
-                "source_port_label": {
-                    "color": "#ff000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "2",
-                    "x": -1.9331506567979773,
-                    "y": 1.901800401985156
                 }
             },
             {
@@ -227,25 +227,25 @@
                 }
             },
             {
-                "description": "Link from ISPUS1 port FastEthernet2/0 to RCOREC2 port FastEthernet2/0",
-                "destination_node_id": 5,
-                "destination_port_id": 277,
+                "description": "Link from SW2 port 3 to ISPPT1 port FastEthernet0/0",
+                "destination_node_id": 9,
+                "destination_port_id": 27,
                 "destination_port_label": {
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "f2/0",
-                    "x": 65.25062660803144,
-                    "y": -1.662144522196968
+                    "text": "f0/0",
+                    "x": 3.2828687663726726,
+                    "y": -4.774841012476088
                 },
                 "id": 11,
-                "source_node_id": 6,
-                "source_port_id": 279,
+                "source_node_id": 8,
+                "source_port_id": 21,
                 "source_port_label": {
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "f2/0",
-                    "x": 0.749373391968561,
-                    "y": 45.66214452219697
+                    "text": "3",
+                    "x": 65.2171312336273,
+                    "y": 42.77484101247609
                 }
             },
             {
@@ -256,8 +256,8 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "f0/0",
-                    "x": -5.6358438102884705,
-                    "y": 11.642800906278069
+                    "x": -5.641588903432158,
+                    "y": 11.664255855616943
                 },
                 "id": 12,
                 "source_node_id": 8,
@@ -266,8 +266,8 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "4",
-                    "x": 74.13584381028846,
-                    "y": 26.35719909372193
+                    "x": 74.14158890343214,
+                    "y": 26.335744144383057
                 }
             },
             {
@@ -279,7 +279,7 @@
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "e0",
                     "x": 32.81006820312646,
-                    "y": 69.4987982033137
+                    "y": 59.4987982033137
                 },
                 "id": 13,
                 "source_node_id": 20,
@@ -300,8 +300,8 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "e0",
-                    "x": 32.5,
-                    "y": 69.5
+                    "x": 33.5,
+                    "y": 58.5
                 },
                 "id": 14,
                 "source_node_id": 21,
@@ -489,6 +489,886 @@
                     "x": 75.21507353947686,
                     "y": 20.765808824737235
                 }
+            },
+            {
+                "description": "Link from ESW3 port FastEthernet1/15 to SW4 port 2",
+                "destination_node_id": 20,
+                "destination_port_id": 160,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": 22.448902148536376,
+                    "y": 30.95249404499586
+                },
+                "id": 23,
+                "source_node_id": 18,
+                "source_port_id": 140,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/15",
+                    "x": -18.448902148536376,
+                    "y": -22.45249404499586
+                }
+            },
+            {
+                "description": "Link from ESW4 port FastEthernet1/15 to SW5 port 2",
+                "destination_node_id": 21,
+                "destination_port_id": 168,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": 34.6146856456059,
+                    "y": 31.9440621947777
+                },
+                "id": 25,
+                "source_node_id": 19,
+                "source_port_id": 158,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/15",
+                    "x": 25.385314354394097,
+                    "y": -24.4440621947777
+                }
+            },
+            {
+                "description": "Link from ESW4 port FastEthernet1/14 to SW4 port 3",
+                "destination_node_id": 20,
+                "destination_port_id": 161,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "3",
+                    "x": 44.48262549121819,
+                    "y": 27.023148559014544
+                },
+                "id": 26,
+                "source_node_id": 19,
+                "source_port_id": 157,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/14",
+                    "x": -42.48262549121819,
+                    "y": -2.523148559014544
+                }
+            },
+            {
+                "description": "Link from ESW3 port FastEthernet1/14 to SW5 port 3",
+                "destination_node_id": 21,
+                "destination_port_id": 169,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "3",
+                    "x": 9.622790575317993,
+                    "y": 28.428290114443996
+                },
+                "id": 27,
+                "source_node_id": 18,
+                "source_port_id": 139,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/14",
+                    "x": 49.37720942468201,
+                    "y": -4.928290114443996
+                }
+            },
+            {
+                "description": "Link from ESW1 port FastEthernet1/0 to ESWCOREA1 port FastEthernet1/0",
+                "destination_node_id": 13,
+                "destination_port_id": 45,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": -9.43923956455248,
+                    "y": 4.02566975090517
+                },
+                "id": 28,
+                "source_node_id": 15,
+                "source_port_id": 81,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": 60.43923956455251,
+                    "y": 42.974330249094834
+                }
+            },
+            {
+                "description": "Link from ESW1 port FastEthernet1/1 to ESWCOREA2 port FastEthernet1/1",
+                "destination_node_id": 14,
+                "destination_port_id": 64,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/1",
+                    "x": -34.36081355132518,
+                    "y": 12.021752792359713
+                },
+                "id": 29,
+                "source_node_id": 15,
+                "source_port_id": 82,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/1",
+                    "x": 64.36081355132518,
+                    "y": 32.978247207640294
+                }
+            },
+            {
+                "description": "Link from ESW2 port FastEthernet1/0 to ESWCOREA2 port FastEthernet1/0",
+                "destination_node_id": 14,
+                "destination_port_id": 63,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": -28.93190068521237,
+                    "y": 0.7824700706622885
+                },
+                "id": 30,
+                "source_node_id": 16,
+                "source_port_id": 99,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": 64.93190068521233,
+                    "y": 30.217529929337715
+                }
+            },
+            {
+                "description": "Link from ESW2 port FastEthernet1/1 to ESWCOREA1 port FastEthernet1/1",
+                "destination_node_id": 13,
+                "destination_port_id": 46,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/1",
+                    "x": -11.985069052615358,
+                    "y": 7.595897101758986
+                },
+                "id": 31,
+                "source_node_id": 16,
+                "source_port_id": 100,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/1",
+                    "x": 63.98506905261536,
+                    "y": 34.404102898241014
+                }
+            },
+            {
+                "description": "Link from ESWCOREA1 port FastEthernet0/0 to RCOREA1 port FastEthernet0/0",
+                "destination_node_id": 41,
+                "destination_port_id": 716,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/0",
+                    "x": 33.225985093949845,
+                    "y": 61.99936162912243
+                },
+                "id": 49,
+                "source_node_id": 13,
+                "source_port_id": 43,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/0",
+                    "x": 17.274014906050155,
+                    "y": -19.49936162912244
+                }
+            },
+            {
+                "description": "Link from ESWCOREA2 port FastEthernet0/0 to RCOREA2 port FastEthernet0/0",
+                "destination_node_id": 42,
+                "destination_port_id": 720,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/0",
+                    "x": 33.22471555495231,
+                    "y": 61.99936878151158
+                },
+                "id": 50,
+                "source_node_id": 14,
+                "source_port_id": 61,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/0",
+                    "x": 7.275284445047689,
+                    "y": -23.49936878151157
+                }
+            },
+            {
+                "description": "Link from ESWCOREA2 port FastEthernet0/1 to RCOREA1 port FastEthernet0/1",
+                "destination_node_id": 41,
+                "destination_port_id": 717,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/1",
+                    "x": 64.73080980015584,
+                    "y": 46.35478822380384
+                },
+                "id": 51,
+                "source_node_id": 14,
+                "source_port_id": 62,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/1",
+                    "x": -18.230809800155846,
+                    "y": -10.85478822380383
+                }
+            },
+            {
+                "description": "Link from ESWCOREA1 port FastEthernet0/1 to RCOREA2 port FastEthernet0/1",
+                "destination_node_id": 42,
+                "destination_port_id": 721,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/1",
+                    "x": 1.7112930789001801,
+                    "y": 46.920209052203404
+                },
+                "id": 52,
+                "source_node_id": 13,
+                "source_port_id": 44,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/1",
+                    "x": 37.788706921099816,
+                    "y": -10.420209052203397
+                }
+            },
+            {
+                "description": "Link from RCOREA2 port FastEthernet1/0 to ISPPT2 port FastEthernet1/0",
+                "destination_node_id": 10,
+                "destination_port_id": 33,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": 33.78931996217153,
+                    "y": 61.99221141669108
+                },
+                "id": 53,
+                "source_node_id": 42,
+                "source_port_id": 722,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": 34.21068003782847,
+                    "y": -15.992211416691106
+                }
+            },
+            {
+                "description": "Link from RCOREA2 port FastEthernet2/0 to ISPPT1 port FastEthernet2/0",
+                "destination_node_id": 9,
+                "destination_port_id": 30,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f2/0",
+                    "x": 66.61400412219146,
+                    "y": 43.68176023466026
+                },
+                "id": 54,
+                "source_node_id": 42,
+                "source_port_id": 723,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f2/0",
+                    "x": -0.614004122191453,
+                    "y": 0.31823976533971177
+                }
+            },
+            {
+                "description": "Link from RCOREA1 port FastEthernet1/0 to ISPPT1 port FastEthernet1/0",
+                "destination_node_id": 9,
+                "destination_port_id": 29,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": 34.05226728352932,
+                    "y": 61.98615677411391
+                },
+                "id": 55,
+                "source_node_id": 41,
+                "source_port_id": 725,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": 31.947732716470682,
+                    "y": -17.98615677411388
+                }
+            },
+            {
+                "description": "Link from RCOREA1 port FastEthernet2/0 to ISPPT2 port FastEthernet2/0",
+                "destination_node_id": 10,
+                "destination_port_id": 34,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f2/0",
+                    "x": 0.10702685001268719,
+                    "y": 44.760762670750125
+                },
+                "id": 56,
+                "source_node_id": 41,
+                "source_port_id": 726,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f2/0",
+                    "x": 65.89297314998731,
+                    "y": -0.7607626707501538
+                }
+            },
+            {
+                "description": "Link from RCOREA1 port FastEthernet3/0 to RCOREA2 port FastEthernet3/0",
+                "destination_node_id": 42,
+                "destination_port_id": 724,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f3/0",
+                    "x": -6.996507278921072,
+                    "y": 22.528588201924066
+                },
+                "id": 57,
+                "source_node_id": 41,
+                "source_port_id": 727,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f3/0",
+                    "x": 72.99650727892106,
+                    "y": 21.471411798075934
+                }
+            },
+            {
+                "description": "Link from ESW3 port FastEthernet0/1 to ESW4 port FastEthernet0/1",
+                "destination_node_id": 19,
+                "destination_port_id": 142,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/1",
+                    "x": -24.49954649297348,
+                    "y": 19.69047403091892
+                },
+                "id": 58,
+                "source_node_id": 18,
+                "source_port_id": 124,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/1",
+                    "x": 46.49954649297348,
+                    "y": 20.30952596908108
+                }
+            },
+            {
+                "description": "Link from ESW3 port FastEthernet0/0 to SW8 port 1",
+                "destination_node_id": 43,
+                "destination_port_id": 728,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": 68.3662452549627,
+                    "y": -19.406277115438122
+                },
+                "id": 59,
+                "source_node_id": 18,
+                "source_port_id": 123,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/0",
+                    "x": -32.366245254962706,
+                    "y": 13.906277115438115
+                }
+            },
+            {
+                "description": "Link from ESW4 port FastEthernet0/0 to SW8 port 2",
+                "destination_node_id": 43,
+                "destination_port_id": 729,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": 73.23889698746405,
+                    "y": 11.170500861232973
+                },
+                "id": 60,
+                "source_node_id": 19,
+                "source_port_id": 141,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/0",
+                    "x": -21.238896987464045,
+                    "y": 36.329499138767034
+                }
+            },
+            {
+                "description": "Link from SW8 port 3 to ESWCOREA2 port FastEthernet1/2",
+                "destination_node_id": 14,
+                "destination_port_id": 65,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/2",
+                    "x": 58.44908218613736,
+                    "y": -25.48236958655872
+                },
+                "id": 61,
+                "source_node_id": 43,
+                "source_port_id": 730,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "3",
+                    "x": -14.44908218613736,
+                    "y": 10.982369586558718
+                }
+            },
+            {
+                "description": "Link from SW8 port 4 to ESWCOREA1 port FastEthernet1/2",
+                "destination_node_id": 13,
+                "destination_port_id": 47,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/2",
+                    "x": 45.49291537744966,
+                    "y": 11.252807818869641
+                },
+                "id": 62,
+                "source_node_id": 43,
+                "source_port_id": 731,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "4",
+                    "x": 21.507084622550337,
+                    "y": 32.24719218113036
+                }
+            },
+            {
+                "description": "Link from ESWCOREA1 port FastEthernet1/3 to ESW5 port FastEthernet1/3",
+                "destination_node_id": 24,
+                "destination_port_id": 182,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/3",
+                    "x": 62.12576120765141,
+                    "y": 7.420397518592068
+                },
+                "id": 63,
+                "source_node_id": 13,
+                "source_port_id": 48,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/3",
+                    "x": -11.12576120765138,
+                    "y": 39.57960248140792
+                }
+            },
+            {
+                "description": "Link from ESWCOREA1 port FastEthernet1/4 to ESW6 port FastEthernet1/4",
+                "destination_node_id": 25,
+                "destination_port_id": 201,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/4",
+                    "x": 47.29953402381659,
+                    "y": -10.03774465202548
+                },
+                "id": 64,
+                "source_node_id": 13,
+                "source_port_id": 49,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/4",
+                    "x": 3.7004659761834375,
+                    "y": 57.03774465202549
+                }
+            },
+            {
+                "description": "Link from ESWCOREA1 port FastEthernet1/5 to ESW7 port FastEthernet1/5",
+                "destination_node_id": 26,
+                "destination_port_id": 220,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/5",
+                    "x": -11.20639555100189,
+                    "y": 7.605330275422858
+                },
+                "id": 65,
+                "source_node_id": 13,
+                "source_port_id": 50,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/5",
+                    "x": 62.20639555100189,
+                    "y": 39.39466972457714
+                }
+            },
+            {
+                "description": "Link from ESWCOREA1 port FastEthernet1/6 to ESW8 port FastEthernet1/6",
+                "destination_node_id": 27,
+                "destination_port_id": 239,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/6",
+                    "x": -13.601378235557377,
+                    "y": 15.068972774336515
+                },
+                "id": 66,
+                "source_node_id": 13,
+                "source_port_id": 51,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/6",
+                    "x": 64.60137823555738,
+                    "y": 31.931027225663478
+                }
+            },
+            {
+                "description": "Link from ESWCOREA2 port FastEthernet1/3 to ESW8 port FastEthernet1/3",
+                "destination_node_id": 27,
+                "destination_port_id": 236,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/3",
+                    "x": -12.179086766774958,
+                    "y": 10.072922119022195
+                },
+                "id": 67,
+                "source_node_id": 14,
+                "source_port_id": 66,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/3",
+                    "x": 63.179086766774965,
+                    "y": 36.92707788097782
+                }
+            },
+            {
+                "description": "Link from ESWCOREA2 port FastEthernet1/4 to ESW7 port FastEthernet1/4",
+                "destination_node_id": 26,
+                "destination_port_id": 219,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/4",
+                    "x": -9.688007849009168,
+                    "y": -10.782011773513744
+                },
+                "id": 68,
+                "source_node_id": 14,
+                "source_port_id": 67,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/4",
+                    "x": 47.68800784900917,
+                    "y": 56.782011773513744
+                }
+            },
+            {
+                "description": "Link from ESWCOREA2 port FastEthernet1/5 to ESW6 port FastEthernet1/5",
+                "destination_node_id": 25,
+                "destination_port_id": 202,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/5",
+                    "x": 62.02398821222096,
+                    "y": 7.190546144228364
+                },
+                "id": 69,
+                "source_node_id": 14,
+                "source_port_id": 68,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/5",
+                    "x": -11.023988212220964,
+                    "y": 39.80945385577162
+                }
+            },
+            {
+                "description": "Link from ESWCOREA2 port FastEthernet1/6 to ESW5 port FastEthernet1/6",
+                "destination_node_id": 24,
+                "destination_port_id": 185,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/6",
+                    "x": 64.183884197069,
+                    "y": 13.323698931942204
+                },
+                "id": 70,
+                "source_node_id": 14,
+                "source_port_id": 69,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/6",
+                    "x": -13.18388419706902,
+                    "y": 33.676301068057796
+                }
+            },
+            {
+                "description": "Link from ESW5 port FastEthernet1/0 to ESW6 port FastEthernet1/0",
+                "destination_node_id": 25,
+                "destination_port_id": 197,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": -14.494304124141195,
+                    "y": 24.175009352306176
+                },
+                "id": 71,
+                "source_node_id": 24,
+                "source_port_id": 179,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": 65.4943041241412,
+                    "y": 22.824990647693824
+                }
+            },
+            {
+                "description": "Link from ESW7 port FastEthernet1/0 to ESW8 port FastEthernet1/0",
+                "destination_node_id": 27,
+                "destination_port_id": 233,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": -14.459962176476097,
+                    "y": 25.289252037752647
+                },
+                "id": 72,
+                "source_node_id": 26,
+                "source_port_id": 215,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": 65.45996217647607,
+                    "y": 21.710747962247353
+                }
+            },
+            {
+                "description": "Link from ESW5 port FastEthernet1/1 to SW6 port 5",
+                "destination_node_id": 28,
+                "destination_port_id": 253,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "5",
+                    "x": 9.074884204319005,
+                    "y": -14.028540676910211
+                },
+                "id": 73,
+                "source_node_id": 24,
+                "source_port_id": 180,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/1",
+                    "x": 51.925115795680995,
+                    "y": 53.52854067691021
+                }
+            },
+            {
+                "description": "Link from ESW6 port FastEthernet1/1 to SW6 port 6",
+                "destination_node_id": 28,
+                "destination_port_id": 254,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "6",
+                    "x": 63.562443993581326,
+                    "y": -12.504372245448792
+                },
+                "id": 74,
+                "source_node_id": 25,
+                "source_port_id": 198,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/1",
+                    "x": -2.5624439935813257,
+                    "y": 52.004372245448764
+                }
+            },
+            {
+                "description": "Link from ESW7 port FastEthernet1/1 to SW7 port 5",
+                "destination_node_id": 29,
+                "destination_port_id": 261,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "5",
+                    "x": 5.433009893308764,
+                    "y": -10.381359061354885
+                },
+                "id": 75,
+                "source_node_id": 26,
+                "source_port_id": 216,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/1",
+                    "x": 55.566990106691236,
+                    "y": 49.881359061354885
+                }
+            },
+            {
+                "description": "Link from ESW8 port FastEthernet1/1 to SW7 port 6",
+                "destination_node_id": 29,
+                "destination_port_id": 262,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "6",
+                    "x": 59.77407698762943,
+                    "y": -15.792596408576628
+                },
+                "id": 76,
+                "source_node_id": 27,
+                "source_port_id": 234,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/1",
+                    "x": 1.225923012370572,
+                    "y": 55.29259640857663
+                }
+            },
+            {
+                "description": "Link from ESW2 port FastEthernet1/2 to SW3 port 1",
+                "destination_node_id": 17,
+                "destination_port_id": 115,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": 9.662310341353077,
+                    "y": 46.535451414764566
+                },
+                "id": 77,
+                "source_node_id": 16,
+                "source_port_id": 101,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/2",
+                    "x": 51.33768965864692,
+                    "y": -7.03545141476458
+                }
+            },
+            {
+                "description": "Link from ESW1 port FastEthernet1/2 to SW3 port 2",
+                "destination_node_id": 17,
+                "destination_port_id": 116,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": 61.50758158783765,
+                    "y": 46.39088185545077
+                },
+                "id": 78,
+                "source_node_id": 15,
+                "source_port_id": 83,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/2",
+                    "x": -0.5075815878376488,
+                    "y": -6.890881855450772
+                }
+            },
+            {
+                "description": "Link from ESW2 port FastEthernet1/3 to ESW1 port FastEthernet1/3",
+                "destination_node_id": 15,
+                "destination_port_id": 84,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/3",
+                    "x": -14.5,
+                    "y": 23.5
+                },
+                "id": 79,
+                "source_node_id": 16,
+                "source_port_id": 102,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/3",
+                    "x": 65.5,
+                    "y": 23.5
+                }
+            },
+            {
+                "description": "Link from ESWCOREA1 port FastEthernet1/7 to ESWCOREA2 port FastEthernet1/7",
+                "destination_node_id": 14,
+                "destination_port_id": 70,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/7",
+                    "x": -14.498419846724516,
+                    "y": 23.14445849025134
+                },
+                "id": 80,
+                "source_node_id": 13,
+                "source_port_id": 52,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/7",
+                    "x": 65.49841984672452,
+                    "y": 23.85554150974866
+                }
             }
         ],
         "nodes": [
@@ -515,7 +1395,8 @@
                 ],
                 "properties": {
                     "console": 5000,
-                    "name": "PC1"
+                    "name": "PC1",
+                    "startup_script_path": "startup.vpc"
                 },
                 "server_id": 1,
                 "symbol": ":/symbols/vpcs_guest.svg",
@@ -549,7 +1430,7 @@
                     {
                         "description": "connected to RCOREC2 on port FastEthernet0/1",
                         "id": 4,
-                        "link_id": 4,
+                        "link_id": 2,
                         "name": "2",
                         "nio": "NIO_UDP",
                         "port_number": 2,
@@ -559,7 +1440,7 @@
                     {
                         "description": "connected to RCOREC1 on port FastEthernet0/1",
                         "id": 5,
-                        "link_id": 2,
+                        "link_id": 7,
                         "name": "3",
                         "nio": "NIO_UDP",
                         "port_number": 3,
@@ -623,24 +1504,6 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 0,
-                        "description": "connected to RCOREC2 on port FastEthernet0/0",
-                        "id": 11,
-                        "link_id": 3,
-                        "name": "FastEthernet0/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "description": "connected to SW1 on port 3",
-                        "id": 12,
-                        "link_id": 2,
-                        "name": "FastEthernet0/1",
-                        "nio": "NIO_UDP",
-                        "port_number": 1
-                    },
-                    {
                         "adapter_number": 1,
                         "description": "connected to ISPUS1 on port FastEthernet1/0",
                         "id": 274,
@@ -653,10 +1516,28 @@
                         "adapter_number": 2,
                         "description": "connected to ISPUS2 on port FastEthernet2/0",
                         "id": 275,
-                        "link_id": 8,
+                        "link_id": 9,
                         "name": "FastEthernet2/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to RCOREC2 on port FastEthernet0/0",
+                        "id": 11,
+                        "link_id": 8,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW1 on port 3",
+                        "id": 12,
+                        "link_id": 7,
+                        "name": "FastEthernet0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
                     }
                 ],
                 "properties": {
@@ -704,28 +1585,10 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 0,
-                        "description": "connected to RCOREC1 on port FastEthernet0/0",
-                        "id": 13,
-                        "link_id": 3,
-                        "name": "FastEthernet0/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "description": "connected to SW1 on port 2",
-                        "id": 14,
-                        "link_id": 4,
-                        "name": "FastEthernet0/1",
-                        "nio": "NIO_UDP",
-                        "port_number": 1
-                    },
-                    {
                         "adapter_number": 1,
                         "description": "connected to ISPUS2 on port FastEthernet1/0",
                         "id": 276,
-                        "link_id": 7,
+                        "link_id": 3,
                         "name": "FastEthernet1/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
@@ -734,10 +1597,28 @@
                         "adapter_number": 2,
                         "description": "connected to ISPUS1 on port FastEthernet2/0",
                         "id": 277,
-                        "link_id": 11,
+                        "link_id": 6,
                         "name": "FastEthernet2/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to RCOREC1 on port FastEthernet0/0",
+                        "id": 13,
+                        "link_id": 8,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW1 on port 2",
+                        "id": 14,
+                        "link_id": 2,
+                        "name": "FastEthernet0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
                     }
                 ],
                 "properties": {
@@ -785,21 +1666,6 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 0,
-                        "description": "connected to SW2 on port 2",
-                        "id": 15,
-                        "link_id": 9,
-                        "name": "FastEthernet0/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 16,
-                        "name": "FastEthernet0/1",
-                        "port_number": 1
-                    },
-                    {
                         "adapter_number": 1,
                         "description": "connected to RCOREC1 on port FastEthernet1/0",
                         "id": 278,
@@ -812,10 +1678,25 @@
                         "adapter_number": 2,
                         "description": "connected to RCOREC2 on port FastEthernet2/0",
                         "id": 279,
-                        "link_id": 11,
+                        "link_id": 6,
                         "name": "FastEthernet2/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW2 on port 2",
+                        "id": 15,
+                        "link_id": 5,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 16,
+                        "name": "FastEthernet0/1",
+                        "port_number": 1
                     }
                 ],
                 "properties": {
@@ -863,10 +1744,28 @@
                 },
                 "ports": [
                     {
+                        "adapter_number": 1,
+                        "description": "connected to RCOREC2 on port FastEthernet1/0",
+                        "id": 280,
+                        "link_id": 3,
+                        "name": "FastEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "description": "connected to RCOREC1 on port FastEthernet2/0",
+                        "id": 281,
+                        "link_id": 9,
+                        "name": "FastEthernet2/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
                         "adapter_number": 0,
                         "description": "connected to SW2 on port 1",
                         "id": 17,
-                        "link_id": 6,
+                        "link_id": 4,
                         "name": "FastEthernet0/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
@@ -876,24 +1775,6 @@
                         "id": 18,
                         "name": "FastEthernet0/1",
                         "port_number": 1
-                    },
-                    {
-                        "adapter_number": 1,
-                        "description": "connected to RCOREC2 on port FastEthernet1/0",
-                        "id": 280,
-                        "link_id": 7,
-                        "name": "FastEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "description": "connected to RCOREC1 on port FastEthernet2/0",
-                        "id": 281,
-                        "link_id": 8,
-                        "name": "FastEthernet2/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
                     }
                 ],
                 "properties": {
@@ -943,7 +1824,7 @@
                     {
                         "description": "connected to ISPUS2 on port FastEthernet0/0",
                         "id": 19,
-                        "link_id": 6,
+                        "link_id": 4,
                         "name": "1",
                         "nio": "NIO_UDP",
                         "port_number": 1,
@@ -953,7 +1834,7 @@
                     {
                         "description": "connected to ISPUS1 on port FastEthernet0/0",
                         "id": 20,
-                        "link_id": 9,
+                        "link_id": 5,
                         "name": "2",
                         "nio": "NIO_UDP",
                         "port_number": 2,
@@ -963,7 +1844,7 @@
                     {
                         "description": "connected to ISPPT1 on port FastEthernet0/0",
                         "id": 21,
-                        "link_id": 5,
+                        "link_id": 11,
                         "name": "3",
                         "nio": "NIO_UDP",
                         "port_number": 3,
@@ -1030,10 +1911,28 @@
                 },
                 "ports": [
                     {
+                        "adapter_number": 1,
+                        "description": "connected to RCOREA1 on port FastEthernet1/0",
+                        "id": 29,
+                        "link_id": 55,
+                        "name": "FastEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "description": "connected to RCOREA2 on port FastEthernet2/0",
+                        "id": 30,
+                        "link_id": 54,
+                        "name": "FastEthernet2/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
                         "adapter_number": 0,
                         "description": "connected to SW2 on port 3",
                         "id": 27,
-                        "link_id": 5,
+                        "link_id": 11,
                         "name": "FastEthernet0/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
@@ -1043,18 +1942,6 @@
                         "id": 28,
                         "name": "FastEthernet0/1",
                         "port_number": 1
-                    },
-                    {
-                        "adapter_number": 1,
-                        "id": 29,
-                        "name": "FastEthernet1/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "id": 30,
-                        "name": "FastEthernet2/0",
-                        "port_number": 0
                     }
                 ],
                 "properties": {
@@ -1102,6 +1989,24 @@
                 },
                 "ports": [
                     {
+                        "adapter_number": 1,
+                        "description": "connected to RCOREA2 on port FastEthernet1/0",
+                        "id": 33,
+                        "link_id": 53,
+                        "name": "FastEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "description": "connected to RCOREA1 on port FastEthernet2/0",
+                        "id": 34,
+                        "link_id": 56,
+                        "name": "FastEthernet2/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
                         "adapter_number": 0,
                         "description": "connected to SW2 on port 4",
                         "id": 31,
@@ -1115,18 +2020,6 @@
                         "id": 32,
                         "name": "FastEthernet0/1",
                         "port_number": 1
-                    },
-                    {
-                        "adapter_number": 1,
-                        "id": 33,
-                        "name": "FastEthernet1/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "id": 34,
-                        "name": "FastEthernet2/0",
-                        "port_number": 0
                     }
                 ],
                 "properties": {
@@ -1163,212 +2056,86 @@
             },
             {
                 "description": "Router c3725",
-                "dynamips_id": 7,
-                "id": 11,
-                "label": {
-                    "color": "#ff000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "RCOREA1",
-                    "x": -1.0,
-                    "y": -25.0
-                },
-                "ports": [
-                    {
-                        "adapter_number": 0,
-                        "id": 35,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 36,
-                        "name": "FastEthernet0/1",
-                        "port_number": 1
-                    },
-                    {
-                        "adapter_number": 1,
-                        "id": 493,
-                        "name": "FastEthernet1/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "id": 494,
-                        "name": "FastEthernet2/0",
-                        "port_number": 0
-                    }
-                ],
-                "properties": {
-                    "auto_delete_disks": true,
-                    "clock_divisor": 8,
-                    "console": 5007,
-                    "disk0": 0,
-                    "disk1": 0,
-                    "exec_area": 64,
-                    "idlemax": 500,
-                    "idlepc": "0x60a6a1e0",
-                    "idlesleep": 30,
-                    "image": "c3725-advipservicesk9-mz.124-21.image",
-                    "image_md5sum": "c336fa915d7ecd3b821c5e562c4326ab",
-                    "iomem": 5,
-                    "mac_addr": "c207.36b4.0000",
-                    "mmap": true,
-                    "name": "RCOREA1",
-                    "nvram": 256,
-                    "platform": "c3725",
-                    "ram": 128,
-                    "slot0": "GT96100-FE",
-                    "slot1": "NM-1FE-TX",
-                    "slot2": "NM-1FE-TX",
-                    "sparsemem": true,
-                    "startup_config": "configs/i7_startup-config.cfg",
-                    "system_id": "FTX0945W0MY"
-                },
-                "server_id": 1,
-                "type": "C3725",
-                "vm_id": "ccea1125-a87a-4f40-935b-6d3fedbfffa7",
-                "x": -243.0,
-                "y": -173.0
-            },
-            {
-                "description": "Router c3725",
-                "dynamips_id": 8,
-                "id": 12,
-                "label": {
-                    "color": "#ff000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "RCOREA2",
-                    "x": -1.0,
-                    "y": -25.0
-                },
-                "ports": [
-                    {
-                        "adapter_number": 0,
-                        "id": 39,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 40,
-                        "name": "FastEthernet0/1",
-                        "port_number": 1
-                    },
-                    {
-                        "adapter_number": 1,
-                        "id": 41,
-                        "name": "FastEthernet1/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "id": 42,
-                        "name": "FastEthernet2/0",
-                        "port_number": 0
-                    }
-                ],
-                "properties": {
-                    "auto_delete_disks": true,
-                    "clock_divisor": 8,
-                    "console": 5008,
-                    "disk0": 0,
-                    "disk1": 0,
-                    "exec_area": 64,
-                    "idlemax": 500,
-                    "idlepc": "0x60a6a1e0",
-                    "idlesleep": 30,
-                    "image": "c3725-advipservicesk9-mz.124-21.image",
-                    "image_md5sum": "c336fa915d7ecd3b821c5e562c4326ab",
-                    "iomem": 5,
-                    "mac_addr": "c208.2298.0000",
-                    "mmap": true,
-                    "name": "RCOREA2",
-                    "nvram": 256,
-                    "platform": "c3725",
-                    "ram": 128,
-                    "slot0": "GT96100-FE",
-                    "slot1": "NM-1FE-TX",
-                    "slot2": "NM-1FE-TX",
-                    "sparsemem": true,
-                    "startup_config": "configs/i8_startup-config.cfg",
-                    "system_id": "FTX0945W0MY"
-                },
-                "server_id": 1,
-                "type": "C3725",
-                "vm_id": "86a4f6e6-26cf-4cff-a71d-d55accb801d6",
-                "x": -14.0,
-                "y": -173.0
-            },
-            {
-                "description": "Router c3725",
                 "dynamips_id": 9,
                 "id": 13,
                 "label": {
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "ESWCOREA1",
-                    "x": -18.0,
-                    "y": -25.0
+                    "x": -88.0,
+                    "y": 23.0
                 },
                 "ports": [
                     {
-                        "adapter_number": 0,
-                        "id": 43,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 44,
-                        "name": "FastEthernet0/1",
-                        "port_number": 1
-                    },
-                    {
                         "adapter_number": 1,
+                        "description": "connected to ESW1 on port FastEthernet1/0",
                         "id": 45,
+                        "link_id": 28,
                         "name": "FastEthernet1/0",
+                        "nio": "NIO_UDP",
                         "port_number": 0
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESW2 on port FastEthernet1/1",
                         "id": 46,
+                        "link_id": 31,
                         "name": "FastEthernet1/1",
+                        "nio": "NIO_UDP",
                         "port_number": 1
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to SW8 on port 4",
                         "id": 47,
+                        "link_id": 62,
                         "name": "FastEthernet1/2",
+                        "nio": "NIO_UDP",
                         "port_number": 2
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESW5 on port FastEthernet1/3",
                         "id": 48,
+                        "link_id": 63,
                         "name": "FastEthernet1/3",
+                        "nio": "NIO_UDP",
                         "port_number": 3
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESW6 on port FastEthernet1/4",
                         "id": 49,
+                        "link_id": 64,
                         "name": "FastEthernet1/4",
+                        "nio": "NIO_UDP",
                         "port_number": 4
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESW7 on port FastEthernet1/5",
                         "id": 50,
+                        "link_id": 65,
                         "name": "FastEthernet1/5",
+                        "nio": "NIO_UDP",
                         "port_number": 5
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESW8 on port FastEthernet1/6",
                         "id": 51,
+                        "link_id": 66,
                         "name": "FastEthernet1/6",
+                        "nio": "NIO_UDP",
                         "port_number": 6
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESWCOREA2 on port FastEthernet1/7",
                         "id": 52,
+                        "link_id": 80,
                         "name": "FastEthernet1/7",
+                        "nio": "NIO_UDP",
                         "port_number": 7
                     },
                     {
@@ -1418,6 +2185,24 @@
                         "id": 60,
                         "name": "FastEthernet1/15",
                         "port_number": 15
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to RCOREA1 on port FastEthernet0/0",
+                        "id": 43,
+                        "link_id": 49,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to RCOREA2 on port FastEthernet0/1",
+                        "id": 44,
+                        "link_id": 52,
+                        "name": "FastEthernet0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
                     }
                 ],
                 "properties": {
@@ -1449,8 +2234,8 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "type": "C3725",
                 "vm_id": "de6e7f72-b40c-4142-8c0e-f793c0a4b906",
-                "x": -231.5,
-                "y": 4.5
+                "x": -229.5,
+                "y": 0.5
             },
             {
                 "description": "Router c3725",
@@ -1460,68 +2245,80 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "ESWCOREA2",
-                    "x": -18.0,
-                    "y": -25.0
+                    "x": 51.0,
+                    "y": 7.0
                 },
                 "ports": [
                     {
-                        "adapter_number": 0,
-                        "id": 61,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 62,
-                        "name": "FastEthernet0/1",
-                        "port_number": 1
-                    },
-                    {
                         "adapter_number": 1,
+                        "description": "connected to ESW2 on port FastEthernet1/0",
                         "id": 63,
+                        "link_id": 30,
                         "name": "FastEthernet1/0",
+                        "nio": "NIO_UDP",
                         "port_number": 0
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESW1 on port FastEthernet1/1",
                         "id": 64,
+                        "link_id": 29,
                         "name": "FastEthernet1/1",
+                        "nio": "NIO_UDP",
                         "port_number": 1
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to SW8 on port 3",
                         "id": 65,
+                        "link_id": 61,
                         "name": "FastEthernet1/2",
+                        "nio": "NIO_UDP",
                         "port_number": 2
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESW8 on port FastEthernet1/3",
                         "id": 66,
+                        "link_id": 67,
                         "name": "FastEthernet1/3",
+                        "nio": "NIO_UDP",
                         "port_number": 3
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESW7 on port FastEthernet1/4",
                         "id": 67,
+                        "link_id": 68,
                         "name": "FastEthernet1/4",
+                        "nio": "NIO_UDP",
                         "port_number": 4
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESW6 on port FastEthernet1/5",
                         "id": 68,
+                        "link_id": 69,
                         "name": "FastEthernet1/5",
+                        "nio": "NIO_UDP",
                         "port_number": 5
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESW5 on port FastEthernet1/6",
                         "id": 69,
+                        "link_id": 70,
                         "name": "FastEthernet1/6",
+                        "nio": "NIO_UDP",
                         "port_number": 6
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESWCOREA1 on port FastEthernet1/7",
                         "id": 70,
+                        "link_id": 80,
                         "name": "FastEthernet1/7",
+                        "nio": "NIO_UDP",
                         "port_number": 7
                     },
                     {
@@ -1571,6 +2368,24 @@
                         "id": 78,
                         "name": "FastEthernet1/15",
                         "port_number": 15
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to RCOREA2 on port FastEthernet0/0",
+                        "id": 61,
+                        "link_id": 50,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to RCOREA1 on port FastEthernet0/1",
+                        "id": 62,
+                        "link_id": 51,
+                        "name": "FastEthernet0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
                     }
                 ],
                 "properties": {
@@ -1618,39 +2433,39 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 0,
-                        "id": 79,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 80,
-                        "name": "FastEthernet0/1",
-                        "port_number": 1
-                    },
-                    {
                         "adapter_number": 1,
+                        "description": "connected to ESWCOREA1 on port FastEthernet1/0",
                         "id": 81,
+                        "link_id": 28,
                         "name": "FastEthernet1/0",
+                        "nio": "NIO_UDP",
                         "port_number": 0
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESWCOREA2 on port FastEthernet1/1",
                         "id": 82,
+                        "link_id": 29,
                         "name": "FastEthernet1/1",
+                        "nio": "NIO_UDP",
                         "port_number": 1
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to SW3 on port 2",
                         "id": 83,
+                        "link_id": 78,
                         "name": "FastEthernet1/2",
+                        "nio": "NIO_UDP",
                         "port_number": 2
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESW2 on port FastEthernet1/3",
                         "id": 84,
+                        "link_id": 79,
                         "name": "FastEthernet1/3",
+                        "nio": "NIO_UDP",
                         "port_number": 3
                     },
                     {
@@ -1724,6 +2539,18 @@
                         "id": 96,
                         "name": "FastEthernet1/15",
                         "port_number": 15
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 79,
+                        "name": "FastEthernet0/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 80,
+                        "name": "FastEthernet0/1",
+                        "port_number": 1
                     }
                 ],
                 "properties": {
@@ -1755,8 +2582,8 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "type": "C3725",
                 "vm_id": "dba32a9f-efec-4b40-9b99-a422ab618315",
-                "x": -413.5,
-                "y": -99.5
+                "x": -414.5,
+                "y": -97.5
             },
             {
                 "description": "Router c3725",
@@ -1771,39 +2598,39 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 0,
-                        "id": 97,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 98,
-                        "name": "FastEthernet0/1",
-                        "port_number": 1
-                    },
-                    {
                         "adapter_number": 1,
+                        "description": "connected to ESWCOREA2 on port FastEthernet1/0",
                         "id": 99,
+                        "link_id": 30,
                         "name": "FastEthernet1/0",
+                        "nio": "NIO_UDP",
                         "port_number": 0
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESWCOREA1 on port FastEthernet1/1",
                         "id": 100,
+                        "link_id": 31,
                         "name": "FastEthernet1/1",
+                        "nio": "NIO_UDP",
                         "port_number": 1
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to SW3 on port 1",
                         "id": 101,
+                        "link_id": 77,
                         "name": "FastEthernet1/2",
+                        "nio": "NIO_UDP",
                         "port_number": 2
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESW1 on port FastEthernet1/3",
                         "id": 102,
+                        "link_id": 79,
                         "name": "FastEthernet1/3",
+                        "nio": "NIO_UDP",
                         "port_number": 3
                     },
                     {
@@ -1877,6 +2704,18 @@
                         "id": 114,
                         "name": "FastEthernet1/15",
                         "port_number": 15
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 97,
+                        "name": "FastEthernet0/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 98,
+                        "name": "FastEthernet0/1",
+                        "port_number": 1
                     }
                 ],
                 "properties": {
@@ -1909,7 +2748,7 @@
                 "type": "C3725",
                 "vm_id": "43ee34ad-490d-4a0c-9a41-096b6003b591",
                 "x": -591.5,
-                "y": -98.5
+                "y": -97.5
             },
             {
                 "description": "Ethernet switch",
@@ -1924,15 +2763,21 @@
                 },
                 "ports": [
                     {
+                        "description": "connected to ESW2 on port FastEthernet1/2",
                         "id": 115,
+                        "link_id": 77,
                         "name": "1",
+                        "nio": "NIO_UDP",
                         "port_number": 1,
                         "type": "access",
                         "vlan": 1
                     },
                     {
+                        "description": "connected to ESW1 on port FastEthernet1/2",
                         "id": 116,
+                        "link_id": 78,
                         "name": "2",
+                        "nio": "NIO_UDP",
                         "port_number": 2,
                         "type": "access",
                         "vlan": 1
@@ -1985,7 +2830,7 @@
                 },
                 "server_id": 1,
                 "type": "EthernetSwitch",
-                "x": -515.5,
+                "x": -513.5,
                 "y": -194.0
             },
             {
@@ -1996,22 +2841,10 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "ESW3",
-                    "x": 3.5,
-                    "y": -25.0
+                    "x": -24.5,
+                    "y": 44.0
                 },
                 "ports": [
-                    {
-                        "adapter_number": 0,
-                        "id": 123,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 124,
-                        "name": "FastEthernet0/1",
-                        "port_number": 1
-                    },
                     {
                         "adapter_number": 1,
                         "id": 125,
@@ -2098,15 +2931,39 @@
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to SW5 on port 3",
                         "id": 139,
+                        "link_id": 27,
                         "name": "FastEthernet1/14",
+                        "nio": "NIO_UDP",
                         "port_number": 14
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to SW4 on port 2",
                         "id": 140,
+                        "link_id": 23,
                         "name": "FastEthernet1/15",
+                        "nio": "NIO_UDP",
                         "port_number": 15
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW8 on port 1",
+                        "id": 123,
+                        "link_id": 59,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to ESW4 on port FastEthernet0/1",
+                        "id": 124,
+                        "link_id": 58,
+                        "name": "FastEthernet0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
                     }
                 ],
                 "properties": {
@@ -2138,8 +2995,8 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "type": "C3725",
                 "vm_id": "52bbefaa-2d51-4488-9750-2a360f50e911",
-                "x": 222.5,
-                "y": -116.5
+                "x": 230.5,
+                "y": -149.5
             },
             {
                 "description": "Router c3725",
@@ -2149,22 +3006,10 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "ESW4",
-                    "x": 3.5,
-                    "y": -25.0
+                    "x": 37.5,
+                    "y": 46.0
                 },
                 "ports": [
-                    {
-                        "adapter_number": 0,
-                        "id": 141,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 142,
-                        "name": "FastEthernet0/1",
-                        "port_number": 1
-                    },
                     {
                         "adapter_number": 1,
                         "id": 143,
@@ -2251,15 +3096,39 @@
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to SW4 on port 3",
                         "id": 157,
+                        "link_id": 26,
                         "name": "FastEthernet1/14",
+                        "nio": "NIO_UDP",
                         "port_number": 14
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to SW5 on port 2",
                         "id": 158,
+                        "link_id": 25,
                         "name": "FastEthernet1/15",
+                        "nio": "NIO_UDP",
                         "port_number": 15
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW8 on port 2",
+                        "id": 141,
+                        "link_id": 60,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to ESW3 on port FastEthernet0/1",
+                        "id": 142,
+                        "link_id": 58,
+                        "name": "FastEthernet0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
                     }
                 ],
                 "properties": {
@@ -2291,8 +3160,8 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "type": "C3725",
                 "vm_id": "a1cb47c5-49fc-411e-8cae-09e2ba17c8af",
-                "x": 435.5,
-                "y": -114.5
+                "x": 440.5,
+                "y": -150.5
             },
             {
                 "description": "Ethernet switch",
@@ -2302,8 +3171,8 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "SW4",
-                    "x": 17.0,
-                    "y": -25.0
+                    "x": -10.0,
+                    "y": -24.0
                 },
                 "ports": [
                     {
@@ -2317,15 +3186,21 @@
                         "vlan": 1
                     },
                     {
+                        "description": "connected to ESW3 on port FastEthernet1/15",
                         "id": 160,
+                        "link_id": 23,
                         "name": "2",
+                        "nio": "NIO_UDP",
                         "port_number": 2,
                         "type": "access",
                         "vlan": 1
                     },
                     {
+                        "description": "connected to ESW4 on port FastEthernet1/14",
                         "id": 161,
+                        "link_id": 26,
                         "name": "3",
+                        "nio": "NIO_UDP",
                         "port_number": 3,
                         "type": "access",
                         "vlan": 1
@@ -2371,8 +3246,8 @@
                 },
                 "server_id": 1,
                 "type": "EthernetSwitch",
-                "x": 204.5,
-                "y": -273.0
+                "x": 218.5,
+                "y": -303.0
             },
             {
                 "description": "Ethernet switch",
@@ -2382,8 +3257,8 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "SW5",
-                    "x": 17.0,
-                    "y": -25.0
+                    "x": 56.0,
+                    "y": -23.0
                 },
                 "ports": [
                     {
@@ -2397,15 +3272,21 @@
                         "vlan": 1
                     },
                     {
+                        "description": "connected to ESW4 on port FastEthernet1/15",
                         "id": 168,
+                        "link_id": 25,
                         "name": "2",
+                        "nio": "NIO_UDP",
                         "port_number": 2,
                         "type": "access",
                         "vlan": 1
                     },
                     {
+                        "description": "connected to ESW3 on port FastEthernet1/14",
                         "id": 169,
+                        "link_id": 27,
                         "name": "3",
+                        "nio": "NIO_UDP",
                         "port_number": 3,
                         "type": "access",
                         "vlan": 1
@@ -2451,8 +3332,8 @@
                 },
                 "server_id": 1,
                 "type": "EthernetSwitch",
-                "x": 416.5,
-                "y": -277.0
+                "x": 430.5,
+                "y": -307.0
             },
             {
                 "description": "VPCS device",
@@ -2483,8 +3364,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "type": "VPCSDevice",
                 "vm_id": "2499e961-0b8c-4bc0-9536-858edc7e47e3",
-                "x": 206.5,
-                "y": -415.5
+                "x": 220.5,
+                "y": -445.5
             },
             {
                 "description": "VPCS device",
@@ -2515,8 +3396,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "type": "VPCSDevice",
                 "vm_id": "71591323-6cea-44b3-842e-1a79db4b420f",
-                "x": 419.5,
-                "y": -413.5
+                "x": 433.5,
+                "y": -443.5
             },
             {
                 "description": "Router c3725",
@@ -2531,27 +3412,21 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 0,
-                        "id": 177,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 178,
-                        "name": "FastEthernet0/1",
-                        "port_number": 1
-                    },
-                    {
                         "adapter_number": 1,
+                        "description": "connected to ESW6 on port FastEthernet1/0",
                         "id": 179,
+                        "link_id": 71,
                         "name": "FastEthernet1/0",
+                        "nio": "NIO_UDP",
                         "port_number": 0
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to SW6 on port 5",
                         "id": 180,
+                        "link_id": 73,
                         "name": "FastEthernet1/1",
+                        "nio": "NIO_UDP",
                         "port_number": 1
                     },
                     {
@@ -2562,8 +3437,11 @@
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESWCOREA1 on port FastEthernet1/3",
                         "id": 182,
+                        "link_id": 63,
                         "name": "FastEthernet1/3",
+                        "nio": "NIO_UDP",
                         "port_number": 3
                     },
                     {
@@ -2580,8 +3458,11 @@
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESWCOREA2 on port FastEthernet1/6",
                         "id": 185,
+                        "link_id": 70,
                         "name": "FastEthernet1/6",
+                        "nio": "NIO_UDP",
                         "port_number": 6
                     },
                     {
@@ -2637,6 +3518,18 @@
                         "id": 194,
                         "name": "FastEthernet1/15",
                         "port_number": 15
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 177,
+                        "name": "FastEthernet0/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 178,
+                        "name": "FastEthernet0/1",
+                        "port_number": 1
                     }
                 ],
                 "properties": {
@@ -2684,27 +3577,21 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 0,
-                        "id": 195,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 196,
-                        "name": "FastEthernet0/1",
-                        "port_number": 1
-                    },
-                    {
                         "adapter_number": 1,
+                        "description": "connected to ESW5 on port FastEthernet1/0",
                         "id": 197,
+                        "link_id": 71,
                         "name": "FastEthernet1/0",
+                        "nio": "NIO_UDP",
                         "port_number": 0
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to SW6 on port 6",
                         "id": 198,
+                        "link_id": 74,
                         "name": "FastEthernet1/1",
+                        "nio": "NIO_UDP",
                         "port_number": 1
                     },
                     {
@@ -2721,14 +3608,20 @@
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESWCOREA1 on port FastEthernet1/4",
                         "id": 201,
+                        "link_id": 64,
                         "name": "FastEthernet1/4",
+                        "nio": "NIO_UDP",
                         "port_number": 4
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESWCOREA2 on port FastEthernet1/5",
                         "id": 202,
+                        "link_id": 69,
                         "name": "FastEthernet1/5",
+                        "nio": "NIO_UDP",
                         "port_number": 5
                     },
                     {
@@ -2790,6 +3683,18 @@
                         "id": 212,
                         "name": "FastEthernet1/15",
                         "port_number": 15
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 195,
+                        "name": "FastEthernet0/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 196,
+                        "name": "FastEthernet0/1",
+                        "port_number": 1
                     }
                 ],
                 "properties": {
@@ -2821,8 +3726,8 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "type": "C3725",
                 "vm_id": "c099ed24-5a02-4e38-9814-cfbda09e8dbd",
-                "x": -322.5,
-                "y": 144.5
+                "x": -321.5,
+                "y": 148.5
             },
             {
                 "description": "Router c3725",
@@ -2837,27 +3742,21 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 0,
-                        "id": 213,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 214,
-                        "name": "FastEthernet0/1",
-                        "port_number": 1
-                    },
-                    {
                         "adapter_number": 1,
+                        "description": "connected to ESW8 on port FastEthernet1/0",
                         "id": 215,
+                        "link_id": 72,
                         "name": "FastEthernet1/0",
+                        "nio": "NIO_UDP",
                         "port_number": 0
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to SW7 on port 5",
                         "id": 216,
+                        "link_id": 75,
                         "name": "FastEthernet1/1",
+                        "nio": "NIO_UDP",
                         "port_number": 1
                     },
                     {
@@ -2874,14 +3773,20 @@
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESWCOREA2 on port FastEthernet1/4",
                         "id": 219,
+                        "link_id": 68,
                         "name": "FastEthernet1/4",
+                        "nio": "NIO_UDP",
                         "port_number": 4
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESWCOREA1 on port FastEthernet1/5",
                         "id": 220,
+                        "link_id": 65,
                         "name": "FastEthernet1/5",
+                        "nio": "NIO_UDP",
                         "port_number": 5
                     },
                     {
@@ -2943,6 +3848,18 @@
                         "id": 230,
                         "name": "FastEthernet1/15",
                         "port_number": 15
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 213,
+                        "name": "FastEthernet0/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 214,
+                        "name": "FastEthernet0/1",
+                        "port_number": 1
                     }
                 ],
                 "properties": {
@@ -2974,8 +3891,8 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "type": "C3725",
                 "vm_id": "6ae3a391-ea5e-46a2-82ba-be4479f897c1",
-                "x": 89.5,
-                "y": 143.5
+                "x": 102.5,
+                "y": 135.5
             },
             {
                 "description": "Router c3725",
@@ -2990,27 +3907,21 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 0,
-                        "id": 231,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 232,
-                        "name": "FastEthernet0/1",
-                        "port_number": 1
-                    },
-                    {
                         "adapter_number": 1,
+                        "description": "connected to ESW7 on port FastEthernet1/0",
                         "id": 233,
+                        "link_id": 72,
                         "name": "FastEthernet1/0",
+                        "nio": "NIO_UDP",
                         "port_number": 0
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to SW7 on port 6",
                         "id": 234,
+                        "link_id": 76,
                         "name": "FastEthernet1/1",
+                        "nio": "NIO_UDP",
                         "port_number": 1
                     },
                     {
@@ -3021,8 +3932,11 @@
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESWCOREA2 on port FastEthernet1/3",
                         "id": 236,
+                        "link_id": 67,
                         "name": "FastEthernet1/3",
+                        "nio": "NIO_UDP",
                         "port_number": 3
                     },
                     {
@@ -3039,8 +3953,11 @@
                     },
                     {
                         "adapter_number": 1,
+                        "description": "connected to ESWCOREA1 on port FastEthernet1/6",
                         "id": 239,
+                        "link_id": 66,
                         "name": "FastEthernet1/6",
+                        "nio": "NIO_UDP",
                         "port_number": 6
                     },
                     {
@@ -3096,6 +4013,18 @@
                         "id": 248,
                         "name": "FastEthernet1/15",
                         "port_number": 15
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 231,
+                        "name": "FastEthernet0/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 232,
+                        "name": "FastEthernet0/1",
+                        "port_number": 1
                     }
                 ],
                 "properties": {
@@ -3127,8 +4056,8 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "type": "C3725",
                 "vm_id": "797ce305-d7c0-40e8-86b5-c63adf4e8414",
-                "x": 357.5,
-                "y": 131.5
+                "x": 359.5,
+                "y": 135.5
             },
             {
                 "description": "Ethernet switch",
@@ -3183,15 +4112,21 @@
                         "vlan": 1
                     },
                     {
+                        "description": "connected to ESW5 on port FastEthernet1/1",
                         "id": 253,
+                        "link_id": 73,
                         "name": "5",
+                        "nio": "NIO_UDP",
                         "port_number": 5,
                         "type": "access",
                         "vlan": 1
                     },
                     {
+                        "description": "connected to ESW6 on port FastEthernet1/1",
                         "id": 254,
+                        "link_id": 74,
                         "name": "6",
+                        "nio": "NIO_UDP",
                         "port_number": 6,
                         "type": "access",
                         "vlan": 1
@@ -3272,15 +4207,21 @@
                         "vlan": 1
                     },
                     {
+                        "description": "connected to ESW7 on port FastEthernet1/1",
                         "id": 261,
+                        "link_id": 75,
                         "name": "5",
+                        "nio": "NIO_UDP",
                         "port_number": 5,
                         "type": "access",
                         "vlan": 1
                     },
                     {
+                        "description": "connected to ESW8 on port FastEthernet1/1",
                         "id": 262,
+                        "link_id": 76,
                         "name": "6",
+                        "nio": "NIO_UDP",
                         "port_number": 6,
                         "type": "access",
                         "vlan": 1
@@ -3381,8 +4322,8 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "WIFI Administracao 4",
-                    "x": -40.5,
-                    "y": -25.0
+                    "x": -38.5,
+                    "y": 59.0
                 },
                 "ports": [
                     {
@@ -3404,8 +4345,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "type": "VPCSDevice",
                 "vm_id": "d2b9ce1b-f0aa-4452-b9c8-d78851c69a01",
-                "x": -440.5,
-                "y": 409.5
+                "x": -441.5,
+                "y": 398.5
             },
             {
                 "description": "VPCS device",
@@ -3414,7 +4355,7 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "WIFI Administracao 3",
-                    "x": -40.5,
+                    "x": -39.5,
                     "y": -25.0
                 },
                 "ports": [
@@ -3481,7 +4422,7 @@
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "Comercial 1",
                     "x": -8.5,
-                    "y": -25.0
+                    "y": 62.0
                 },
                 "ports": [
                     {
@@ -3503,8 +4444,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "type": "VPCSDevice",
                 "vm_id": "4ada5082-7a5e-49a5-98da-6afb4a311e6f",
-                "x": 169.5,
-                "y": 412.5
+                "x": 167.5,
+                "y": 393.5
             },
             {
                 "description": "VPCS device",
@@ -3513,8 +4454,8 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "WIFI Administracao 2",
-                    "x": -40.5,
-                    "y": -25.0
+                    "x": -41.5,
+                    "y": 60.0
                 },
                 "ports": [
                     {
@@ -3536,8 +4477,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "type": "VPCSDevice",
                 "vm_id": "a2754238-5eb2-4969-9ad8-1c057196b16c",
-                "x": 366.5,
-                "y": 407.5
+                "x": 365.5,
+                "y": 391.5
             },
             {
                 "description": "VPCS device",
@@ -3571,6 +4512,299 @@
                 "vm_id": "f8976912-5d02-4481-aae2-e8ed73c69795",
                 "x": 462.5,
                 "y": 300.5
+            },
+            {
+                "description": "Router c7200",
+                "dynamips_id": 19,
+                "id": 41,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "RCOREA1",
+                    "x": -69.0,
+                    "y": 11.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to ESWCOREA1 on port FastEthernet0/0",
+                        "id": 716,
+                        "link_id": 49,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to ESWCOREA2 on port FastEthernet0/1",
+                        "id": 717,
+                        "link_id": 51,
+                        "name": "FastEthernet0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to ISPPT1 on port FastEthernet1/0",
+                        "id": 725,
+                        "link_id": 55,
+                        "name": "FastEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "description": "connected to ISPPT2 on port FastEthernet2/0",
+                        "id": 726,
+                        "link_id": 56,
+                        "name": "FastEthernet2/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "description": "connected to RCOREA2 on port FastEthernet3/0",
+                        "id": 727,
+                        "link_id": 57,
+                        "name": "FastEthernet3/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "auto_delete_disks": true,
+                    "clock_divisor": 4,
+                    "console": 5007,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60608040",
+                    "idlesleep": 30,
+                    "image": "c7200-adventerprisek9-mz.151-4.M2.image",
+                    "image_md5sum": "d54b063e3d0b368a702ffb49f497825e",
+                    "mac_addr": "ca13.4244.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "name": "RCOREA1",
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-2FE",
+                    "slot1": "PA-FE-TX",
+                    "slot2": "PA-FE-TX",
+                    "slot3": "PA-FE-TX",
+                    "sparsemem": true,
+                    "startup_config": "configs/i19_startup-config.cfg",
+                    "system_id": "FTX0945W0MY"
+                },
+                "server_id": 1,
+                "type": "C7200",
+                "vm_id": "3711f186-7abd-43f1-a6e8-96f3ba1e6e25",
+                "x": -240.0,
+                "y": -171.0
+            },
+            {
+                "description": "Router c7200",
+                "dynamips_id": 20,
+                "id": 42,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "RCOREA2",
+                    "x": 66.0,
+                    "y": 8.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to ESWCOREA2 on port FastEthernet0/0",
+                        "id": 720,
+                        "link_id": 50,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to ESWCOREA1 on port FastEthernet0/1",
+                        "id": 721,
+                        "link_id": 52,
+                        "name": "FastEthernet0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to ISPPT2 on port FastEthernet1/0",
+                        "id": 722,
+                        "link_id": 53,
+                        "name": "FastEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "description": "connected to ISPPT1 on port FastEthernet2/0",
+                        "id": 723,
+                        "link_id": 54,
+                        "name": "FastEthernet2/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "description": "connected to RCOREA1 on port FastEthernet3/0",
+                        "id": 724,
+                        "link_id": 57,
+                        "name": "FastEthernet3/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "auto_delete_disks": true,
+                    "clock_divisor": 4,
+                    "console": 5008,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60608040",
+                    "idlesleep": 30,
+                    "image": "c7200-adventerprisek9-mz.151-4.M2.image",
+                    "image_md5sum": "d54b063e3d0b368a702ffb49f497825e",
+                    "mac_addr": "ca14.0a58.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "name": "RCOREA2",
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-2FE",
+                    "slot1": "PA-FE-TX",
+                    "slot2": "PA-FE-TX",
+                    "slot3": "PA-FE-TX",
+                    "sparsemem": true,
+                    "startup_config": "configs/i20_startup-config.cfg",
+                    "system_id": "FTX0945W0MY"
+                },
+                "server_id": 1,
+                "type": "C7200",
+                "vm_id": "092f563d-12c8-4e4d-ad4d-571d563ba121",
+                "x": -13.0,
+                "y": -174.0
+            },
+            {
+                "description": "Ethernet switch",
+                "device_id": "5468aa33-1e8e-4349-96c3-18d7147fddad",
+                "id": 43,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SW8",
+                    "x": 23.0,
+                    "y": -22.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to ESW3 on port FastEthernet0/0",
+                        "id": 728,
+                        "link_id": 59,
+                        "name": "1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to ESW4 on port FastEthernet0/0",
+                        "id": 729,
+                        "link_id": 60,
+                        "name": "2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to ESWCOREA2 on port FastEthernet1/2",
+                        "id": 730,
+                        "link_id": 61,
+                        "name": "3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to ESWCOREA1 on port FastEthernet1/2",
+                        "id": 731,
+                        "link_id": 62,
+                        "name": "4",
+                        "nio": "NIO_UDP",
+                        "port_number": 4,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 732,
+                        "name": "5",
+                        "port_number": 5,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 733,
+                        "name": "6",
+                        "port_number": 6,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 734,
+                        "name": "7",
+                        "port_number": 7,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 735,
+                        "name": "8",
+                        "port_number": 8,
+                        "type": "access",
+                        "vlan": 1
+                    }
+                ],
+                "properties": {
+                    "name": "SW8"
+                },
+                "server_id": 1,
+                "type": "EthernetSwitch",
+                "x": 81.5,
+                "y": -114.0
             }
         ],
         "notes": [
@@ -3586,16 +4820,16 @@
                 "color": "#ff000000",
                 "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                 "text": "DATACENTER",
-                "x": -619.0,
-                "y": -223.0,
+                "x": -774.0,
+                "y": -244.0,
                 "z": 1.0
             },
             {
                 "color": "#ff000000",
                 "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                 "text": "OLD BUILDING",
-                "x": 193.0,
-                "y": -463.0,
+                "x": 207.0,
+                "y": -493.0,
                 "z": 1.0
             },
             {
@@ -3630,16 +4864,17 @@
                 "y": -498.0
             },
             {
-                "height": 196.0,
-                "width": 289.0,
-                "x": -619.0,
-                "y": -224.0
+                "height": 217.0,
+                "width": 445.0,
+                "x": -775.0,
+                "y": -244.0
             },
             {
                 "height": 424.0,
                 "width": 317.0,
-                "x": 193.0,
-                "y": -464.0
+                "x": 206.0,
+                "y": -494.0,
+                "z": -1.0
             },
             {
                 "height": 381.0,

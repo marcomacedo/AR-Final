@@ -1,0 +1,22 @@
+Jun 16 17:01:01.261 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jun 16 17:01:01.262 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63746.
+Jun 16 17:01:01.378 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 16 17:01:01.408 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
+Jun 16 17:01:01.408 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
+Jun 16 17:01:01.426 HYPERVISOR: exec_cmd: ethsw create SW2 
+Jun 16 17:01:03.648 HYPERVISOR: exec_cmd: nio create_udp udp-0f4534a5-b590-4500-a65a-a5d89a401ab3 10006 127.0.0.1 10007 
+Jun 16 17:01:03.669 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-0f4534a5-b590-4500-a65a-a5d89a401ab3 
+Jun 16 17:01:03.685 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-0f4534a5-b590-4500-a65a-a5d89a401ab3 1 
+Jun 16 17:01:03.723 HYPERVISOR: exec_cmd: nio create_udp udp-9f752bf3-5462-4c2e-8478-65dcf8309c74 10008 127.0.0.1 10009 
+Jun 16 17:01:03.748 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-9f752bf3-5462-4c2e-8478-65dcf8309c74 
+Jun 16 17:01:03.776 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-9f752bf3-5462-4c2e-8478-65dcf8309c74 1 
+Jun 16 17:01:04.060 HYPERVISOR: exec_cmd: nio create_udp udp-7fa59243-2862-4b50-8007-f9434bf89eec 10020 127.0.0.1 10021 
+Jun 16 17:01:04.089 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-7fa59243-2862-4b50-8007-f9434bf89eec 
+Jun 16 17:01:04.111 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-7fa59243-2862-4b50-8007-f9434bf89eec 1 
+Jun 16 17:01:04.140 HYPERVISOR: exec_cmd: nio create_udp udp-4ddcc4b1-79ae-427c-b446-e178e9e6e02a 10022 127.0.0.1 10023 
+Jun 16 17:01:04.169 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-4ddcc4b1-79ae-427c-b446-e178e9e6e02a 
+Jun 16 17:01:04.204 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-4ddcc4b1-79ae-427c-b446-e178e9e6e02a 1 
+Jun 16 18:14:04.000 HYPERVISOR: exec_cmd: ethsw delete SW2 
+Jun 16 18:14:04.098 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 16 18:14:04.473 HYPERVISOR: Stopped.
+Jun 16 18:14:04.473 GENERAL: reset done.

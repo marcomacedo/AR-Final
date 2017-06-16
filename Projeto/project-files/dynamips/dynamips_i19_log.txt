@@ -1,0 +1,24 @@
+Jun 16 17:01:02.451 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jun 16 17:01:02.452 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63771.
+Jun 16 17:01:02.553 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 16 17:01:02.586 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
+Jun 16 17:01:02.587 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
+Jun 16 17:01:02.637 HYPERVISOR: exec_cmd: ethsw create SW5 
+Jun 16 17:01:04.229 HYPERVISOR: exec_cmd: nio create_udp udp-e6b4ff5b-2ffd-4065-986b-a30fd5bb637e 10026 127.0.0.1 10027 
+Jun 16 17:01:04.266 HYPERVISOR: exec_cmd: ethsw add_nio SW5 udp-e6b4ff5b-2ffd-4065-986b-a30fd5bb637e 
+Jun 16 17:01:04.301 HYPERVISOR: exec_cmd: ethsw set_access_port SW5 udp-e6b4ff5b-2ffd-4065-986b-a30fd5bb637e 1 
+Jun 16 17:09:05.926 HYPERVISOR: exec_cmd: nio create_udp udp-8d565962-f000-4111-8c81-162a9cf264f5 10047 127.0.0.1 10046 
+Jun 16 17:09:05.926 HYPERVISOR: exec_cmd: ethsw add_nio SW5 udp-8d565962-f000-4111-8c81-162a9cf264f5 
+Jun 16 17:09:05.957 HYPERVISOR: exec_cmd: ethsw set_access_port SW5 udp-8d565962-f000-4111-8c81-162a9cf264f5 1 
+Jun 16 17:09:09.282 HYPERVISOR: exec_cmd: ethsw remove_nio SW5 udp-8d565962-f000-4111-8c81-162a9cf264f5 
+Jun 16 17:09:09.301 HYPERVISOR: exec_cmd: nio delete udp-8d565962-f000-4111-8c81-162a9cf264f5 
+Jun 16 17:09:13.994 HYPERVISOR: exec_cmd: nio create_udp udp-ae46bb3c-1244-43d1-8f50-6677abe50c5e 10047 127.0.0.1 10046 
+Jun 16 17:09:13.994 HYPERVISOR: exec_cmd: ethsw add_nio SW5 udp-ae46bb3c-1244-43d1-8f50-6677abe50c5e 
+Jun 16 17:09:14.027 HYPERVISOR: exec_cmd: ethsw set_access_port SW5 udp-ae46bb3c-1244-43d1-8f50-6677abe50c5e 1 
+Jun 16 17:09:21.642 HYPERVISOR: exec_cmd: nio create_udp udp-e1d6b579-779a-4365-afac-88fafd8aa5d7 10051 127.0.0.1 10050 
+Jun 16 17:09:21.642 HYPERVISOR: exec_cmd: ethsw add_nio SW5 udp-e1d6b579-779a-4365-afac-88fafd8aa5d7 
+Jun 16 17:09:21.657 HYPERVISOR: exec_cmd: ethsw set_access_port SW5 udp-e1d6b579-779a-4365-afac-88fafd8aa5d7 1 
+Jun 16 18:14:04.000 HYPERVISOR: exec_cmd: ethsw delete SW5 
+Jun 16 18:14:04.067 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 16 18:14:04.473 HYPERVISOR: Stopped.
+Jun 16 18:14:04.473 GENERAL: reset done.

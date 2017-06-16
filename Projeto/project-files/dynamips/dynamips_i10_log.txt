@@ -1,0 +1,68 @@
+Jun 16 17:01:01.581 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jun 16 17:01:01.581 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63754.
+Jun 16 17:01:01.689 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 16 17:01:01.710 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
+Jun 16 17:01:01.710 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
+Jun 16 17:01:01.730 HYPERVISOR: exec_cmd: vm create RCOREA2 8 c3725 
+Jun 16 17:01:01.731 VM: VM RCOREA2 created.
+Jun 16 17:01:01.751 HYPERVISOR: exec_cmd: vm set_con_tcp_port RCOREA2 5008 
+Jun 16 17:01:01.771 HYPERVISOR: exec_cmd: c3725 get_mac_addr RCOREA2 
+Jun 16 17:01:01.791 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 17:01:01.813 HYPERVISOR: exec_cmd: vm set_idle_pc RCOREA2 0x60a6a1e0 
+Jun 16 17:01:01.842 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 17:01:01.873 HYPERVISOR: exec_cmd: vm slot_add_binding RCOREA2 1 0 NM-1FE-TX 
+Jun 16 17:01:01.891 HYPERVISOR: exec_cmd: vm set_ios RCOREA2 D:/Documentos/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 16 17:01:01.918 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 17:01:01.947 HYPERVISOR: exec_cmd: vm slot_add_binding RCOREA2 2 0 NM-1FE-TX 
+Jun 16 17:01:01.966 HYPERVISOR: exec_cmd: vm set_exec_area RCOREA2 64 
+Jun 16 17:01:01.984 HYPERVISOR: exec_cmd: c3725 set_mac_addr RCOREA2 c208.2298.0000 
+Jun 16 17:01:02.007 HYPERVISOR: exec_cmd: vm set_nvram RCOREA2 256 
+Jun 16 17:01:02.037 HYPERVISOR: exec_cmd: vm set_disk0 RCOREA2 0 
+Jun 16 17:01:02.054 HYPERVISOR: exec_cmd: vm set_config RCOREA2 configs/i8_startup-config.cfg 
+Jun 16 17:08:09.692 HYPERVISOR: exec_cmd: vm extract_config RCOREA2 
+Jun 16 17:11:07.327 HYPERVISOR: exec_cmd: vm extract_config RCOREA2 
+Jun 16 17:11:27.614 HYPERVISOR: exec_cmd: vm extract_config RCOREA2 
+Jun 16 17:13:20.543 HYPERVISOR: exec_cmd: nio create_udp udp-35ee5e57-a2f1-4534-b7ea-66dee30b0b98 10062 127.0.0.1 10063 
+Jun 16 17:13:20.559 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RCOREA2 0 0 udp-35ee5e57-a2f1-4534-b7ea-66dee30b0b98 
+Jun 16 17:13:20.559 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 17:13:24.476 HYPERVISOR: exec_cmd: nio create_udp udp-131e4054-e4dd-4efe-8deb-82272423f94f 10065 127.0.0.1 10064 
+Jun 16 17:13:24.476 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RCOREA2 0 1 udp-131e4054-e4dd-4efe-8deb-82272423f94f 
+Jun 16 17:13:24.492 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 17:13:34.642 HYPERVISOR: exec_cmd: nio create_udp udp-64346806-3bc7-4d5d-847a-11e253a611a4 10068 127.0.0.1 10069 
+Jun 16 17:13:34.642 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RCOREA2 1 0 udp-64346806-3bc7-4d5d-847a-11e253a611a4 
+Jun 16 17:13:34.657 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 17:13:37.783 HYPERVISOR: exec_cmd: nio create_udp udp-f7c4b183-1cfa-435b-8d1e-5a0ceebb1c16 10070 127.0.0.1 10071 
+Jun 16 17:13:37.794 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RCOREA2 2 0 udp-f7c4b183-1cfa-435b-8d1e-5a0ceebb1c16 
+Jun 16 17:13:37.802 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 17:14:23.930 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 17:14:23.930 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding RCOREA2 2 0 
+Jun 16 17:14:23.946 HYPERVISOR: exec_cmd: nio delete udp-f7c4b183-1cfa-435b-8d1e-5a0ceebb1c16 
+Jun 16 17:15:15.533 HYPERVISOR: exec_cmd: nio create_udp udp-1249e3d8-db80-413f-a8a4-7dc2d9d861bf 10074 127.0.0.1 10075 
+Jun 16 17:15:15.542 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RCOREA2 2 0 udp-1249e3d8-db80-413f-a8a4-7dc2d9d861bf 
+Jun 16 17:15:15.542 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 17:15:21.158 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 17:15:21.173 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding RCOREA2 2 0 
+Jun 16 17:15:21.173 HYPERVISOR: exec_cmd: nio delete udp-1249e3d8-db80-413f-a8a4-7dc2d9d861bf 
+Jun 16 17:19:15.811 HYPERVISOR: exec_cmd: nio create_udp udp-81f8ab8a-3cf3-4cca-ac98-7b22e3ee197c 10074 127.0.0.1 10075 
+Jun 16 17:19:15.811 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RCOREA2 2 0 udp-81f8ab8a-3cf3-4cca-ac98-7b22e3ee197c 
+Jun 16 17:19:15.826 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 17:20:18.850 HYPERVISOR: exec_cmd: vm extract_config RCOREA2 
+Jun 16 17:20:27.313 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 17:20:27.330 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding RCOREA2 0 0 
+Jun 16 17:20:27.346 HYPERVISOR: exec_cmd: nio delete udp-35ee5e57-a2f1-4534-b7ea-66dee30b0b98 
+Jun 16 17:20:27.361 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 17:20:27.377 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding RCOREA2 0 1 
+Jun 16 17:20:27.397 HYPERVISOR: exec_cmd: nio delete udp-131e4054-e4dd-4efe-8deb-82272423f94f 
+Jun 16 17:20:27.413 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 17:20:27.429 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding RCOREA2 1 0 
+Jun 16 17:20:27.429 HYPERVISOR: exec_cmd: nio delete udp-64346806-3bc7-4d5d-847a-11e253a611a4 
+Jun 16 17:20:27.429 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 17:20:27.444 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding RCOREA2 2 0 
+Jun 16 17:20:27.444 HYPERVISOR: exec_cmd: nio delete udp-81f8ab8a-3cf3-4cca-ac98-7b22e3ee197c 
+Jun 16 17:20:27.444 HYPERVISOR: exec_cmd: vm get_status RCOREA2 
+Jun 16 17:20:27.460 HYPERVISOR: exec_cmd: vm extract_config RCOREA2 
+Jun 16 17:20:27.460 HYPERVISOR: exec_cmd: vm delete RCOREA2 
+Jun 16 17:20:27.460 VM: VM RCOREA2 destroyed.
+Jun 16 17:20:27.460 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 16 17:20:27.621 HYPERVISOR: Stopped.
+Jun 16 17:20:27.622 GENERAL: reset done.

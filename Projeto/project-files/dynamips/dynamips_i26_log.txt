@@ -1,0 +1,40 @@
+Jun 16 17:15:34.867 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jun 16 17:15:34.867 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63915.
+Jun 16 17:15:34.867 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 16 17:15:34.882 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
+Jun 16 17:15:34.882 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
+Jun 16 17:15:34.882 HYPERVISOR: exec_cmd: vm create R1 19 c7200 
+Jun 16 17:15:34.882 VM: VM R1 created.
+Jun 16 17:15:34.919 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5029 
+Jun 16 17:15:34.919 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Jun 16 17:15:34.919 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 16 17:15:34.934 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Jun 16 17:15:34.934 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Jun 16 17:15:34.934 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Jun 16 17:15:34.934 HYPERVISOR: exec_cmd: vm set_ios R1 D:/Documentos/GNS3/images/IOS/c7200-jk9o3s-mz.123-8.T.bin 
+Jun 16 17:15:34.950 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 16 17:15:34.950 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60792d4c 
+Jun 16 17:15:34.950 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 16 17:15:34.950 HYPERVISOR: exec_cmd: vm slot_remove_binding R1 0 0 
+Jun 16 17:15:34.965 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 16 17:15:34.965 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-2FE 
+Jun 16 17:15:34.965 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Jun 16 17:15:34.965 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Jun 16 17:15:34.965 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 16 17:15:34.981 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-2FE-TX 
+Jun 16 17:15:34.981 HYPERVISOR: exec_cmd: vm set_config R1 configs/i19_startup-config.cfg 
+Jun 16 17:15:49.689 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 16 17:15:49.689 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 PA-FE-TX 
+Jun 16 17:15:49.689 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 16 17:15:49.689 HYPERVISOR: exec_cmd: vm slot_add_binding R1 3 0 PA-FE-TX 
+Jun 16 17:15:49.705 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 16 17:15:49.705 HYPERVISOR: exec_cmd: vm slot_remove_binding R1 1 0 
+Jun 16 17:15:49.705 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 16 17:15:49.705 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-FE-TX 
+Jun 16 17:16:01.595 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 16 17:16:01.600 HYPERVISOR: exec_cmd: vm extract_config R1 
+Jun 16 17:16:01.604 HYPERVISOR: exec_cmd: vm delete R1 
+Jun 16 17:16:01.604 VM: VM R1 destroyed.
+Jun 16 17:16:01.604 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 16 17:16:01.698 HYPERVISOR: Stopped.
+Jun 16 17:16:01.698 GENERAL: reset done.
