@@ -1,40 +1,22 @@
-Jun 16 17:15:34.867 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
-Jun 16 17:15:34.867 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63915.
-Jun 16 17:15:34.867 HYPERVISOR: exec_cmd: hypervisor version 
-Jun 16 17:15:34.882 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
-Jun 16 17:15:34.882 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
-Jun 16 17:15:34.882 HYPERVISOR: exec_cmd: vm create R1 19 c7200 
-Jun 16 17:15:34.882 VM: VM R1 created.
-Jun 16 17:15:34.919 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5029 
-Jun 16 17:15:34.919 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
-Jun 16 17:15:34.919 HYPERVISOR: exec_cmd: vm get_status R1 
-Jun 16 17:15:34.934 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
-Jun 16 17:15:34.934 HYPERVISOR: exec_cmd: vm set_ram R1 512 
-Jun 16 17:15:34.934 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
-Jun 16 17:15:34.934 HYPERVISOR: exec_cmd: vm set_ios R1 D:/Documentos/GNS3/images/IOS/c7200-jk9o3s-mz.123-8.T.bin 
-Jun 16 17:15:34.950 HYPERVISOR: exec_cmd: vm get_status R1 
-Jun 16 17:15:34.950 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60792d4c 
-Jun 16 17:15:34.950 HYPERVISOR: exec_cmd: vm get_status R1 
-Jun 16 17:15:34.950 HYPERVISOR: exec_cmd: vm slot_remove_binding R1 0 0 
-Jun 16 17:15:34.965 HYPERVISOR: exec_cmd: vm get_status R1 
-Jun 16 17:15:34.965 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-2FE 
-Jun 16 17:15:34.965 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
-Jun 16 17:15:34.965 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
-Jun 16 17:15:34.965 HYPERVISOR: exec_cmd: vm get_status R1 
-Jun 16 17:15:34.981 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-2FE-TX 
-Jun 16 17:15:34.981 HYPERVISOR: exec_cmd: vm set_config R1 configs/i19_startup-config.cfg 
-Jun 16 17:15:49.689 HYPERVISOR: exec_cmd: vm get_status R1 
-Jun 16 17:15:49.689 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 PA-FE-TX 
-Jun 16 17:15:49.689 HYPERVISOR: exec_cmd: vm get_status R1 
-Jun 16 17:15:49.689 HYPERVISOR: exec_cmd: vm slot_add_binding R1 3 0 PA-FE-TX 
-Jun 16 17:15:49.705 HYPERVISOR: exec_cmd: vm get_status R1 
-Jun 16 17:15:49.705 HYPERVISOR: exec_cmd: vm slot_remove_binding R1 1 0 
-Jun 16 17:15:49.705 HYPERVISOR: exec_cmd: vm get_status R1 
-Jun 16 17:15:49.705 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-FE-TX 
-Jun 16 17:16:01.595 HYPERVISOR: exec_cmd: vm get_status R1 
-Jun 16 17:16:01.600 HYPERVISOR: exec_cmd: vm extract_config R1 
-Jun 16 17:16:01.604 HYPERVISOR: exec_cmd: vm delete R1 
-Jun 16 17:16:01.604 VM: VM R1 destroyed.
-Jun 16 17:16:01.604 HYPERVISOR: exec_cmd: hypervisor stop 
-Jun 16 17:16:01.698 HYPERVISOR: Stopped.
-Jun 16 17:16:01.698 GENERAL: reset done.
+Jun 17 11:57:36.790 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jun 17 11:57:36.791 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 64993.
+Jun 17 11:57:36.885 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 17 11:57:36.906 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
+Jun 17 11:57:36.907 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
+Jun 17 11:57:36.932 HYPERVISOR: exec_cmd: ethsw create SW8 
+Jun 17 11:57:40.533 HYPERVISOR: exec_cmd: nio create_udp udp-98dd2bcb-613c-4da8-93dd-bd6a448796f4 10099 127.0.0.1 10098 
+Jun 17 11:57:40.554 HYPERVISOR: exec_cmd: ethsw add_nio SW8 udp-98dd2bcb-613c-4da8-93dd-bd6a448796f4 
+Jun 17 11:57:40.591 HYPERVISOR: exec_cmd: ethsw set_access_port SW8 udp-98dd2bcb-613c-4da8-93dd-bd6a448796f4 1 
+Jun 17 11:57:40.617 HYPERVISOR: exec_cmd: nio create_udp udp-580ed6eb-a77b-4a7d-8d59-771c0a0b658c 10101 127.0.0.1 10100 
+Jun 17 11:57:40.634 HYPERVISOR: exec_cmd: ethsw add_nio SW8 udp-580ed6eb-a77b-4a7d-8d59-771c0a0b658c 
+Jun 17 11:57:40.662 HYPERVISOR: exec_cmd: ethsw set_access_port SW8 udp-580ed6eb-a77b-4a7d-8d59-771c0a0b658c 1 
+Jun 17 11:57:40.689 HYPERVISOR: exec_cmd: nio create_udp udp-12b8c568-b013-49ed-9a83-b360e07ab2cd 10102 127.0.0.1 10103 
+Jun 17 11:57:40.716 HYPERVISOR: exec_cmd: ethsw add_nio SW8 udp-12b8c568-b013-49ed-9a83-b360e07ab2cd 
+Jun 17 11:57:40.735 HYPERVISOR: exec_cmd: ethsw set_access_port SW8 udp-12b8c568-b013-49ed-9a83-b360e07ab2cd 1 
+Jun 17 11:57:40.762 HYPERVISOR: exec_cmd: nio create_udp udp-3d4f6383-f9d5-466b-8bce-1eec66d66c64 10104 127.0.0.1 10105 
+Jun 17 11:57:40.786 HYPERVISOR: exec_cmd: ethsw add_nio SW8 udp-3d4f6383-f9d5-466b-8bce-1eec66d66c64 
+Jun 17 11:57:40.825 HYPERVISOR: exec_cmd: ethsw set_access_port SW8 udp-3d4f6383-f9d5-466b-8bce-1eec66d66c64 1 
+Jun 17 14:16:53.953 HYPERVISOR: exec_cmd: ethsw delete SW8 
+Jun 17 14:16:54.024 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 17 14:16:54.058 HYPERVISOR: Stopped.
+Jun 17 14:16:54.058 GENERAL: reset done.

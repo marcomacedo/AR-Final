@@ -26,14 +26,53 @@ F2/0 - 200.1.0.198/30 - 2002:A:A:35::6/126 - RCOREC1
 ->Configuração rede Aveiro
 ISPPT1
 F0/0 - 100.0.0.3/24 - 2001::3/64 - SW2
+F1/0 - 200.1.0.1/30 - 2002:A:A:30::1/126 - RCOREA1
+F2/0 - 200.1.0.5/30 - 2002:A:A:30::5/126 - RCOREA2
 
 ISPPT2
 F0/0 - 100.0.0.4/24 - SW2
+F1/0 - 200.1.0.9/30 - RCOREA2
+F2/0 - 200.1.0.13/30 - RCOREA1
 
-CORE - 10.0.16.0/24i
+RCOREA1
+F0/0 - ESWCOREA1
+F0/1 - ESWCOREA2
+F1/0 - 200.1.0.2/30 - 2002:A:A:30::2/126 - ISPPT1
+F2/0 - 200.1.0.14/30 - ISPPT2
+F3/0 - 10.0.32.1/30 - 2002:A:A:20::1/126 - RCOREA2
 
-1. Configuração rede Antiga
+RCOREA2
+F0/0 - ESWCOREA2
+F0/1 - ESWCOREA1
+F1/0 - 200.1.0.10/30 - ISPPT2
+F2/0 - 200.1.0.6/30 - 2002:A:A:30::6/126 - ISPPT1
+F3/0 - 10.0.32.2/30 - 2002:A:A:20::2/126 - RCOREA1
 
+ESWCOREA1
+F0/0 - RCOREA1
+F0/1 - RCOREA2
+
+ESWCOREA2
+F0/0 - RCOREA2
+F0/1 - RCOREA1
+
+VLAN END-TO-END (WIFI Administração)
+IPv4 - 10.6.80.0/24 - 10.6.81.0/24
+IPv6 - 2002:A:A:50::/64 - 2002:A:A:51::/64
+
+VLAN LOCAL (DATA - Comercial)
+IPv4 - 10.8.128.0/24 - 10.8.129.0/24
+IPv6 - 2002:A:A:88::/64 - 2002:A:A:89::/64
+
+VLAN LOCAL (DATA - Técnicos)
+IPv4 - 10.8.160.0/24 - 10.8.161.0/24
+IPv6 - 2002:A:A:A0::/64 - 2002:A:A:A1::/64
+
+VLAN LOCAL (DATA - Engenharia)
+IPv4 - 10.8.96.0/24 - 10.8.97.0/24
+IPv6 - 2002:A:A:60::/64 - 2002:A:A:61::/64
+
+->Configuração rede Antiga
 Configuração do SWL3_A
 interface f0/0
 ip address 192.168.100.10 255.255.255.0
@@ -67,13 +106,3 @@ switchport trunk encapsulation dot1q
 interface fastEthernet 1/15
 switchport mode trunk
 switchport trunk encapsulation dot1q
-
-2. VLAN END-TO-END (WIFI Administração)
-
-3. VLAN LOCAL (DATA - Comercial)
-
-4. VLAN LOCAL (DATA - Técnicos)
-
-5. VLAN LOCAL (DATA - Investigação)
-
-6. VLAN LOCAL (DATA - Engenharia)

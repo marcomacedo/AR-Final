@@ -1,24 +1,41 @@
-Jun 16 17:01:02.451 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
-Jun 16 17:01:02.452 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63771.
-Jun 16 17:01:02.553 HYPERVISOR: exec_cmd: hypervisor version 
-Jun 16 17:01:02.586 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
-Jun 16 17:01:02.587 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
-Jun 16 17:01:02.637 HYPERVISOR: exec_cmd: ethsw create SW5 
-Jun 16 17:01:04.229 HYPERVISOR: exec_cmd: nio create_udp udp-e6b4ff5b-2ffd-4065-986b-a30fd5bb637e 10026 127.0.0.1 10027 
-Jun 16 17:01:04.266 HYPERVISOR: exec_cmd: ethsw add_nio SW5 udp-e6b4ff5b-2ffd-4065-986b-a30fd5bb637e 
-Jun 16 17:01:04.301 HYPERVISOR: exec_cmd: ethsw set_access_port SW5 udp-e6b4ff5b-2ffd-4065-986b-a30fd5bb637e 1 
-Jun 16 17:09:05.926 HYPERVISOR: exec_cmd: nio create_udp udp-8d565962-f000-4111-8c81-162a9cf264f5 10047 127.0.0.1 10046 
-Jun 16 17:09:05.926 HYPERVISOR: exec_cmd: ethsw add_nio SW5 udp-8d565962-f000-4111-8c81-162a9cf264f5 
-Jun 16 17:09:05.957 HYPERVISOR: exec_cmd: ethsw set_access_port SW5 udp-8d565962-f000-4111-8c81-162a9cf264f5 1 
-Jun 16 17:09:09.282 HYPERVISOR: exec_cmd: ethsw remove_nio SW5 udp-8d565962-f000-4111-8c81-162a9cf264f5 
-Jun 16 17:09:09.301 HYPERVISOR: exec_cmd: nio delete udp-8d565962-f000-4111-8c81-162a9cf264f5 
-Jun 16 17:09:13.994 HYPERVISOR: exec_cmd: nio create_udp udp-ae46bb3c-1244-43d1-8f50-6677abe50c5e 10047 127.0.0.1 10046 
-Jun 16 17:09:13.994 HYPERVISOR: exec_cmd: ethsw add_nio SW5 udp-ae46bb3c-1244-43d1-8f50-6677abe50c5e 
-Jun 16 17:09:14.027 HYPERVISOR: exec_cmd: ethsw set_access_port SW5 udp-ae46bb3c-1244-43d1-8f50-6677abe50c5e 1 
-Jun 16 17:09:21.642 HYPERVISOR: exec_cmd: nio create_udp udp-e1d6b579-779a-4365-afac-88fafd8aa5d7 10051 127.0.0.1 10050 
-Jun 16 17:09:21.642 HYPERVISOR: exec_cmd: ethsw add_nio SW5 udp-e1d6b579-779a-4365-afac-88fafd8aa5d7 
-Jun 16 17:09:21.657 HYPERVISOR: exec_cmd: ethsw set_access_port SW5 udp-e1d6b579-779a-4365-afac-88fafd8aa5d7 1 
-Jun 16 18:14:04.000 HYPERVISOR: exec_cmd: ethsw delete SW5 
-Jun 16 18:14:04.067 HYPERVISOR: exec_cmd: hypervisor stop 
-Jun 16 18:14:04.473 HYPERVISOR: Stopped.
-Jun 16 18:14:04.473 GENERAL: reset done.
+Jun 17 11:57:36.128 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jun 17 11:57:36.128 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 64980.
+Jun 17 11:57:36.267 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 17 11:57:36.287 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
+Jun 17 11:57:36.287 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
+Jun 17 11:57:36.304 HYPERVISOR: exec_cmd: vm create ESW6 16 c3725 
+Jun 17 11:57:36.305 VM: VM ESW6 created.
+Jun 17 11:57:36.321 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW6 5018 
+Jun 17 11:57:36.337 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW6 
+Jun 17 11:57:36.357 HYPERVISOR: exec_cmd: vm set_exec_area ESW6 64 
+Jun 17 11:57:36.378 HYPERVISOR: exec_cmd: vm set_nvram ESW6 256 
+Jun 17 11:57:36.398 HYPERVISOR: exec_cmd: vm set_ios ESW6 D:/Documentos/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 17 11:57:36.424 HYPERVISOR: exec_cmd: vm get_status ESW6 
+Jun 17 11:57:36.453 HYPERVISOR: exec_cmd: vm set_idle_pc ESW6 0x60a6a1e0 
+Jun 17 11:57:36.473 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESW6 c210.0c3c.0000 
+Jun 17 11:57:36.489 HYPERVISOR: exec_cmd: vm set_disk0 ESW6 1 
+Jun 17 11:57:36.510 HYPERVISOR: exec_cmd: vm get_status ESW6 
+Jun 17 11:57:36.528 HYPERVISOR: exec_cmd: vm slot_add_binding ESW6 1 0 NM-16ESW 
+Jun 17 11:57:36.555 HYPERVISOR: exec_cmd: vm set_config ESW6 configs/i16_startup-config.cfg 
+Jun 17 11:57:39.662 HYPERVISOR: exec_cmd: nio create_udp udp-3e23447d-2e83-4b00-bfd3-14004e7f8979 10063 127.0.0.1 10062 
+Jun 17 11:57:39.683 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW6 1 4 udp-3e23447d-2e83-4b00-bfd3-14004e7f8979 
+Jun 17 11:57:39.709 HYPERVISOR: exec_cmd: vm get_status ESW6 
+Jun 17 11:57:39.750 HYPERVISOR: exec_cmd: nio create_udp udp-6bea5cae-8268-4464-91fc-6a4be2efb3c4 10065 127.0.0.1 10064 
+Jun 17 11:57:39.781 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW6 1 5 udp-6bea5cae-8268-4464-91fc-6a4be2efb3c4 
+Jun 17 11:57:39.800 HYPERVISOR: exec_cmd: vm get_status ESW6 
+Jun 17 11:57:39.823 HYPERVISOR: exec_cmd: nio create_udp udp-da504ffd-b265-4030-8c3d-44c4fd9076cb 10067 127.0.0.1 10066 
+Jun 17 11:57:39.845 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW6 1 0 udp-da504ffd-b265-4030-8c3d-44c4fd9076cb 
+Jun 17 11:57:39.878 HYPERVISOR: exec_cmd: vm get_status ESW6 
+Jun 17 11:57:39.913 HYPERVISOR: exec_cmd: nio create_udp udp-0daf46eb-6e5e-4f6c-b47d-22347658df6e 10068 127.0.0.1 10069 
+Jun 17 11:57:39.935 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW6 1 1 udp-0daf46eb-6e5e-4f6c-b47d-22347658df6e 
+Jun 17 11:57:39.965 HYPERVISOR: exec_cmd: vm get_status ESW6 
+Jun 17 12:32:42.631 HYPERVISOR: exec_cmd: vm extract_config ESW6 
+Jun 17 13:19:54.747 HYPERVISOR: exec_cmd: vm extract_config ESW6 
+Jun 17 14:08:58.312 HYPERVISOR: exec_cmd: vm extract_config ESW6 
+Jun 17 14:16:54.679 HYPERVISOR: exec_cmd: vm get_status ESW6 
+Jun 17 14:16:54.756 HYPERVISOR: exec_cmd: vm extract_config ESW6 
+Jun 17 14:16:54.831 HYPERVISOR: exec_cmd: vm delete ESW6 
+Jun 17 14:16:54.831 VM: VM ESW6 destroyed.
+Jun 17 14:16:54.916 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 17 14:16:55.351 HYPERVISOR: Stopped.
+Jun 17 14:16:55.351 GENERAL: reset done.
