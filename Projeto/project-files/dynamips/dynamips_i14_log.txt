@@ -1,41 +1,55 @@
-Jun 17 11:57:35.688 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
-Jun 17 11:57:35.688 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 64970.
-Jun 17 11:57:35.794 HYPERVISOR: exec_cmd: hypervisor version 
-Jun 17 11:57:35.815 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
-Jun 17 11:57:35.815 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
-Jun 17 11:57:35.833 HYPERVISOR: exec_cmd: vm create ESW3 13 c3725 
-Jun 17 11:57:35.834 VM: VM ESW3 created.
-Jun 17 11:57:35.855 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW3 5013 
-Jun 17 11:57:35.874 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW3 
-Jun 17 11:57:35.903 HYPERVISOR: exec_cmd: vm set_exec_area ESW3 64 
-Jun 17 11:57:35.927 HYPERVISOR: exec_cmd: vm set_nvram ESW3 256 
-Jun 17 11:57:35.955 HYPERVISOR: exec_cmd: vm set_ios ESW3 D:/Documentos/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
-Jun 17 11:57:35.974 HYPERVISOR: exec_cmd: vm get_status ESW3 
-Jun 17 11:57:36.005 HYPERVISOR: exec_cmd: vm set_idle_pc ESW3 0x60a6a1e0 
-Jun 17 11:57:36.031 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESW3 c20d.12d8.0000 
-Jun 17 11:57:36.050 HYPERVISOR: exec_cmd: vm set_disk0 ESW3 1 
-Jun 17 11:57:36.087 HYPERVISOR: exec_cmd: vm get_status ESW3 
-Jun 17 11:57:36.115 HYPERVISOR: exec_cmd: vm slot_add_binding ESW3 1 0 NM-16ESW 
-Jun 17 11:57:36.141 HYPERVISOR: exec_cmd: vm set_config ESW3 configs/i13_startup-config.cfg 
-Jun 17 11:57:39.039 HYPERVISOR: exec_cmd: nio create_udp udp-ca19fa70-5bcf-45e1-8071-a3bfaa33c12b 10044 127.0.0.1 10045 
-Jun 17 11:57:39.063 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW3 1 15 udp-ca19fa70-5bcf-45e1-8071-a3bfaa33c12b 
-Jun 17 11:57:39.083 HYPERVISOR: exec_cmd: vm get_status ESW3 
-Jun 17 11:57:39.116 HYPERVISOR: exec_cmd: nio create_udp udp-1a64f28c-be50-4b13-87c3-4560b37704f5 10046 127.0.0.1 10047 
-Jun 17 11:57:39.142 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW3 1 14 udp-1a64f28c-be50-4b13-87c3-4560b37704f5 
-Jun 17 11:57:39.162 HYPERVISOR: exec_cmd: vm get_status ESW3 
-Jun 17 11:57:39.231 HYPERVISOR: exec_cmd: nio create_udp udp-1090b4f3-8d56-4820-a325-e2b044f3c1c7 10052 127.0.0.1 10053 
-Jun 17 11:57:39.248 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW3 0 1 udp-1090b4f3-8d56-4820-a325-e2b044f3c1c7 
-Jun 17 11:57:39.262 HYPERVISOR: exec_cmd: vm get_status ESW3 
-Jun 17 11:57:40.510 HYPERVISOR: exec_cmd: nio create_udp udp-6366ab2e-cd94-4bb4-a1df-73de95138eb8 10098 127.0.0.1 10099 
-Jun 17 11:57:40.523 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW3 0 0 udp-6366ab2e-cd94-4bb4-a1df-73de95138eb8 
-Jun 17 11:57:40.548 HYPERVISOR: exec_cmd: vm get_status ESW3 
-Jun 17 12:32:42.589 HYPERVISOR: exec_cmd: vm extract_config ESW3 
-Jun 17 13:19:54.698 HYPERVISOR: exec_cmd: vm extract_config ESW3 
-Jun 17 14:08:58.262 HYPERVISOR: exec_cmd: vm extract_config ESW3 
-Jun 17 14:16:54.691 HYPERVISOR: exec_cmd: vm get_status ESW3 
-Jun 17 14:16:54.764 HYPERVISOR: exec_cmd: vm extract_config ESW3 
-Jun 17 14:16:54.842 HYPERVISOR: exec_cmd: vm delete ESW3 
-Jun 17 14:16:54.843 VM: VM ESW3 destroyed.
-Jun 17 14:16:54.926 HYPERVISOR: exec_cmd: hypervisor stop 
-Jun 17 14:16:55.419 HYPERVISOR: Stopped.
-Jun 17 14:16:55.419 GENERAL: reset done.
+Jun 20 11:30:09.975 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jun 20 11:30:09.976 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61721.
+Jun 20 11:30:10.097 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 20 11:30:10.117 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
+Jun 20 11:30:10.117 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
+Jun 20 11:30:10.133 HYPERVISOR: exec_cmd: vm create ESW3 13 c3725 
+Jun 20 11:30:10.134 VM: VM ESW3 created.
+Jun 20 11:30:10.149 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW3 5013 
+Jun 20 11:30:10.168 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW3 
+Jun 20 11:30:10.184 HYPERVISOR: exec_cmd: vm set_nvram ESW3 256 
+Jun 20 11:30:10.208 HYPERVISOR: exec_cmd: vm set_exec_area ESW3 64 
+Jun 20 11:30:10.238 HYPERVISOR: exec_cmd: vm set_ios ESW3 D:/Documentos/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 20 11:30:10.262 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 11:30:10.293 HYPERVISOR: exec_cmd: vm slot_add_binding ESW3 1 0 NM-16ESW 
+Jun 20 11:30:10.331 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 11:30:10.349 HYPERVISOR: exec_cmd: vm set_idle_pc ESW3 0x60a6a1e0 
+Jun 20 11:30:10.363 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESW3 c20d.12d8.0000 
+Jun 20 11:30:10.379 HYPERVISOR: exec_cmd: vm set_disk0 ESW3 1 
+Jun 20 11:30:10.393 HYPERVISOR: exec_cmd: vm set_config ESW3 configs/i13_startup-config.cfg 
+Jun 20 11:30:13.074 HYPERVISOR: exec_cmd: nio create_udp udp-4a6dfd3d-b0ad-4bdf-bb12-3929c9cd5291 10044 127.0.0.1 10045 
+Jun 20 11:30:13.095 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW3 1 15 udp-4a6dfd3d-b0ad-4bdf-bb12-3929c9cd5291 
+Jun 20 11:30:13.116 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 11:30:13.147 HYPERVISOR: exec_cmd: nio create_udp udp-09e18b41-932e-4d62-85a4-06dd84997ef4 10046 127.0.0.1 10047 
+Jun 20 11:30:13.178 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW3 1 14 udp-09e18b41-932e-4d62-85a4-06dd84997ef4 
+Jun 20 11:30:13.192 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 11:30:13.437 HYPERVISOR: exec_cmd: nio create_udp udp-916adfe0-ef79-47c9-b175-bfe5e9f494e7 10052 127.0.0.1 10053 
+Jun 20 11:30:13.467 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW3 0 1 udp-916adfe0-ef79-47c9-b175-bfe5e9f494e7 
+Jun 20 11:30:13.491 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 11:30:14.450 HYPERVISOR: exec_cmd: nio create_udp udp-56f6640e-ea81-481e-9aca-0d8949ae3feb 10098 127.0.0.1 10099 
+Jun 20 11:30:14.467 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW3 0 0 udp-56f6640e-ea81-481e-9aca-0d8949ae3feb 
+Jun 20 11:30:14.479 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 11:31:00.656 HYPERVISOR: exec_cmd: vm set_ghost_status ESW3 2 
+Jun 20 11:31:00.672 HYPERVISOR: exec_cmd: vm set_ghost_file ESW3 c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 20 11:31:00.688 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 11:31:00.724 HYPERVISOR: exec_cmd: vm start ESW3 
+Jun 20 12:20:30.924 HYPERVISOR: exec_cmd: vm extract_config ESW3 
+Jun 20 12:20:52.055 HYPERVISOR: exec_cmd: vm extract_config ESW3 
+Jun 20 12:27:53.457 HYPERVISOR: exec_cmd: vm extract_config ESW3 
+Jun 20 12:27:56.878 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 12:27:56.902 HYPERVISOR: exec_cmd: vm stop ESW3 
+Jun 20 12:27:57.079 VM: VM ESW3 shutdown.
+Jun 20 12:27:57.098 HYPERVISOR: exec_cmd: vm extract_config ESW3 
+Jun 20 12:27:57.128 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 12:27:57.157 HYPERVISOR: exec_cmd: vm start ESW3 
+Jun 20 12:28:17.226 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 12:28:17.229 HYPERVISOR: exec_cmd: vm stop ESW3 
+Jun 20 12:28:17.386 VM: VM ESW3 shutdown.
+Jun 20 12:28:17.400 HYPERVISOR: exec_cmd: vm extract_config ESW3 
+Jun 20 12:28:19.873 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 12:28:19.943 HYPERVISOR: exec_cmd: vm extract_config ESW3 
+Jun 20 12:28:20.053 HYPERVISOR: exec_cmd: vm delete ESW3 
+Jun 20 12:28:20.053 VM: VM ESW3 destroyed.
+Jun 20 12:28:20.124 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 20 12:28:20.550 HYPERVISOR: Stopped.
+Jun 20 12:28:20.550 GENERAL: reset done.

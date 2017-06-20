@@ -1,40 +1,54 @@
-Jun 17 11:57:35.035 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
-Jun 17 11:57:35.035 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 64957.
-Jun 17 11:57:35.172 HYPERVISOR: exec_cmd: hypervisor version 
-Jun 17 11:57:35.199 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
-Jun 17 11:57:35.200 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
-Jun 17 11:57:35.222 HYPERVISOR: exec_cmd: vm create ISPPT1 5 c3725 
-Jun 17 11:57:35.222 VM: VM ISPPT1 created.
-Jun 17 11:57:35.244 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISPPT1 5005 
-Jun 17 11:57:35.272 HYPERVISOR: exec_cmd: c3725 get_mac_addr ISPPT1 
-Jun 17 11:57:35.287 HYPERVISOR: exec_cmd: vm set_exec_area ISPPT1 64 
-Jun 17 11:57:35.305 HYPERVISOR: exec_cmd: vm get_status ISPPT1 
-Jun 17 11:57:35.323 HYPERVISOR: exec_cmd: vm slot_add_binding ISPPT1 2 0 NM-1FE-TX 
-Jun 17 11:57:35.344 HYPERVISOR: exec_cmd: vm set_nvram ISPPT1 256 
-Jun 17 11:57:35.361 HYPERVISOR: exec_cmd: vm set_ios ISPPT1 D:/Documentos/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
-Jun 17 11:57:35.381 HYPERVISOR: exec_cmd: vm get_status ISPPT1 
-Jun 17 11:57:35.401 HYPERVISOR: exec_cmd: vm set_idle_pc ISPPT1 0x60a6a1e0 
-Jun 17 11:57:35.422 HYPERVISOR: exec_cmd: c3725 set_mac_addr ISPPT1 c205.17cc.0000 
-Jun 17 11:57:35.441 HYPERVISOR: exec_cmd: vm set_disk0 ISPPT1 0 
-Jun 17 11:57:35.461 HYPERVISOR: exec_cmd: vm get_status ISPPT1 
-Jun 17 11:57:35.480 HYPERVISOR: exec_cmd: vm slot_add_binding ISPPT1 1 0 NM-1FE-TX 
-Jun 17 11:57:35.502 HYPERVISOR: exec_cmd: vm set_config ISPPT1 configs/i5_startup-config.cfg 
-Jun 17 11:57:38.416 HYPERVISOR: exec_cmd: nio create_udp udp-302fe81c-1d22-4d36-a3c7-d10a70a97b2f 10021 127.0.0.1 10020 
-Jun 17 11:57:38.431 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISPPT1 0 0 udp-302fe81c-1d22-4d36-a3c7-d10a70a97b2f 
-Jun 17 11:57:38.443 HYPERVISOR: exec_cmd: vm get_status ISPPT1 
-Jun 17 11:57:40.878 HYPERVISOR: exec_cmd: nio create_udp udp-3da3d5ca-397f-485e-a1fc-b164633b5f98 10111 127.0.0.1 10110 
-Jun 17 11:57:40.910 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISPPT1 1 0 udp-3da3d5ca-397f-485e-a1fc-b164633b5f98 
-Jun 17 11:57:40.932 HYPERVISOR: exec_cmd: vm get_status ISPPT1 
-Jun 17 11:57:41.107 HYPERVISOR: exec_cmd: nio create_udp udp-89486f72-88b9-4778-8ae0-d57aacfb2361 10121 127.0.0.1 10120 
-Jun 17 11:57:41.119 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISPPT1 2 0 udp-89486f72-88b9-4778-8ae0-d57aacfb2361 
-Jun 17 11:57:41.144 HYPERVISOR: exec_cmd: vm get_status ISPPT1 
-Jun 17 12:32:42.616 HYPERVISOR: exec_cmd: vm extract_config ISPPT1 
-Jun 17 13:19:54.728 HYPERVISOR: exec_cmd: vm extract_config ISPPT1 
-Jun 17 14:08:58.291 HYPERVISOR: exec_cmd: vm extract_config ISPPT1 
-Jun 17 14:16:54.697 HYPERVISOR: exec_cmd: vm get_status ISPPT1 
-Jun 17 14:16:54.772 HYPERVISOR: exec_cmd: vm extract_config ISPPT1 
-Jun 17 14:16:54.850 HYPERVISOR: exec_cmd: vm delete ISPPT1 
-Jun 17 14:16:54.850 VM: VM ISPPT1 destroyed.
-Jun 17 14:16:54.932 HYPERVISOR: exec_cmd: hypervisor stop 
-Jun 17 14:16:55.356 HYPERVISOR: Stopped.
-Jun 17 14:16:55.356 GENERAL: reset done.
+Jun 20 11:30:09.265 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jun 20 11:30:09.265 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61707.
+Jun 20 11:30:09.369 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 20 11:30:09.387 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
+Jun 20 11:30:09.387 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
+Jun 20 11:30:09.406 HYPERVISOR: exec_cmd: vm create ISPPT1 5 c3725 
+Jun 20 11:30:09.407 VM: VM ISPPT1 created.
+Jun 20 11:30:09.422 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISPPT1 5005 
+Jun 20 11:30:09.440 HYPERVISOR: exec_cmd: c3725 get_mac_addr ISPPT1 
+Jun 20 11:30:09.464 HYPERVISOR: exec_cmd: vm set_nvram ISPPT1 256 
+Jun 20 11:30:09.493 HYPERVISOR: exec_cmd: vm set_exec_area ISPPT1 64 
+Jun 20 11:30:09.512 HYPERVISOR: exec_cmd: vm set_ios ISPPT1 D:/Documentos/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 20 11:30:09.533 HYPERVISOR: exec_cmd: vm get_status ISPPT1 
+Jun 20 11:30:09.569 HYPERVISOR: exec_cmd: vm slot_add_binding ISPPT1 1 0 NM-1FE-TX 
+Jun 20 11:30:09.596 HYPERVISOR: exec_cmd: vm get_status ISPPT1 
+Jun 20 11:30:09.614 HYPERVISOR: exec_cmd: vm set_idle_pc ISPPT1 0x60a6a1e0 
+Jun 20 11:30:09.627 HYPERVISOR: exec_cmd: c3725 set_mac_addr ISPPT1 c205.17cc.0000 
+Jun 20 11:30:09.647 HYPERVISOR: exec_cmd: vm get_status ISPPT1 
+Jun 20 11:30:09.660 HYPERVISOR: exec_cmd: vm slot_add_binding ISPPT1 2 0 NM-1FE-TX 
+Jun 20 11:30:09.677 HYPERVISOR: exec_cmd: vm set_disk0 ISPPT1 0 
+Jun 20 11:30:09.695 HYPERVISOR: exec_cmd: vm set_config ISPPT1 configs/i5_startup-config.cfg 
+Jun 20 11:30:12.529 HYPERVISOR: exec_cmd: nio create_udp udp-98cfa54b-f2b1-4646-8932-73d44d95c4b2 10021 127.0.0.1 10020 
+Jun 20 11:30:12.549 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISPPT1 0 0 udp-98cfa54b-f2b1-4646-8932-73d44d95c4b2 
+Jun 20 11:30:12.567 HYPERVISOR: exec_cmd: vm get_status ISPPT1 
+Jun 20 11:30:14.806 HYPERVISOR: exec_cmd: nio create_udp udp-4fe0764e-baae-4ff2-93c1-1011b9e1ce60 10111 127.0.0.1 10110 
+Jun 20 11:30:14.828 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISPPT1 1 0 udp-4fe0764e-baae-4ff2-93c1-1011b9e1ce60 
+Jun 20 11:30:14.850 HYPERVISOR: exec_cmd: vm get_status ISPPT1 
+Jun 20 11:30:15.029 HYPERVISOR: exec_cmd: nio create_udp udp-14273a83-08fb-4051-a3ee-1fc1c3e8ae05 10121 127.0.0.1 10120 
+Jun 20 11:30:15.040 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISPPT1 2 0 udp-14273a83-08fb-4051-a3ee-1fc1c3e8ae05 
+Jun 20 11:30:15.064 HYPERVISOR: exec_cmd: vm get_status ISPPT1 
+Jun 20 11:31:01.596 HYPERVISOR: exec_cmd: vm set_ghost_status ISPPT1 2 
+Jun 20 11:31:01.609 HYPERVISOR: exec_cmd: vm set_ghost_file ISPPT1 c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 20 11:31:01.614 HYPERVISOR: exec_cmd: vm get_status ISPPT1 
+Jun 20 11:31:01.620 HYPERVISOR: exec_cmd: vm start ISPPT1 
+Jun 20 12:20:30.803 HYPERVISOR: exec_cmd: vm extract_config ISPPT1 
+Jun 20 12:20:51.994 HYPERVISOR: exec_cmd: vm extract_config ISPPT1 
+Jun 20 12:27:53.393 HYPERVISOR: exec_cmd: vm extract_config ISPPT1 
+Jun 20 12:27:57.629 HYPERVISOR: exec_cmd: vm get_status ISPPT1 
+Jun 20 12:27:57.644 HYPERVISOR: exec_cmd: vm stop ISPPT1 
+Jun 20 12:27:57.918 VM: VM ISPPT1 shutdown.
+Jun 20 12:27:57.922 HYPERVISOR: exec_cmd: vm extract_config ISPPT1 
+Jun 20 12:27:57.931 HYPERVISOR: exec_cmd: vm get_status ISPPT1 
+Jun 20 12:27:57.944 HYPERVISOR: exec_cmd: vm start ISPPT1 
+Jun 20 12:28:17.497 HYPERVISOR: exec_cmd: vm get_status ISPPT1 
+Jun 20 12:28:17.506 HYPERVISOR: exec_cmd: vm stop ISPPT1 
+Jun 20 12:28:17.637 VM: VM ISPPT1 shutdown.
+Jun 20 12:28:17.641 HYPERVISOR: exec_cmd: vm extract_config ISPPT1 
+Jun 20 12:28:19.855 HYPERVISOR: exec_cmd: vm get_status ISPPT1 
+Jun 20 12:28:19.924 HYPERVISOR: exec_cmd: vm extract_config ISPPT1 
+Jun 20 12:28:20.015 HYPERVISOR: exec_cmd: vm delete ISPPT1 
+Jun 20 12:28:20.015 VM: VM ISPPT1 destroyed.
+Jun 20 12:28:20.108 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 20 12:28:20.322 HYPERVISOR: Stopped.
+Jun 20 12:28:20.322 GENERAL: reset done.

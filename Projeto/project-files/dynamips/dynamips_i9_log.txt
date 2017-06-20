@@ -1,59 +1,73 @@
-Jun 17 11:57:35.182 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
-Jun 17 11:57:35.182 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 64960.
-Jun 17 11:57:35.292 HYPERVISOR: exec_cmd: hypervisor version 
-Jun 17 11:57:35.313 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
-Jun 17 11:57:35.314 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
-Jun 17 11:57:35.333 HYPERVISOR: exec_cmd: vm create ESWCOREA1 9 c3725 
-Jun 17 11:57:35.334 VM: VM ESWCOREA1 created.
-Jun 17 11:57:35.353 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESWCOREA1 5009 
-Jun 17 11:57:35.372 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESWCOREA1 
-Jun 17 11:57:35.393 HYPERVISOR: exec_cmd: vm set_exec_area ESWCOREA1 64 
-Jun 17 11:57:35.413 HYPERVISOR: exec_cmd: vm set_nvram ESWCOREA1 256 
-Jun 17 11:57:35.433 HYPERVISOR: exec_cmd: vm set_ios ESWCOREA1 D:/Documentos/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
-Jun 17 11:57:35.453 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
-Jun 17 11:57:35.473 HYPERVISOR: exec_cmd: vm set_idle_pc ESWCOREA1 0x60a6a1e0 
-Jun 17 11:57:35.492 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESWCOREA1 c209.238c.0000 
-Jun 17 11:57:35.513 HYPERVISOR: exec_cmd: vm set_disk0 ESWCOREA1 1 
-Jun 17 11:57:35.541 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
-Jun 17 11:57:35.570 HYPERVISOR: exec_cmd: vm slot_add_binding ESWCOREA1 1 0 NM-16ESW 
-Jun 17 11:57:35.590 HYPERVISOR: exec_cmd: vm set_config ESWCOREA1 configs/i9_startup-config.cfg 
-Jun 17 11:57:38.523 HYPERVISOR: exec_cmd: nio create_udp udp-6e5d53d4-8185-484a-8711-63fd5564a4b4 10024 127.0.0.1 10025 
-Jun 17 11:57:38.551 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 1 7 udp-6e5d53d4-8185-484a-8711-63fd5564a4b4 
-Jun 17 11:57:38.575 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
-Jun 17 11:57:38.623 HYPERVISOR: exec_cmd: nio create_udp udp-a84a3695-af12-4341-8f82-c92e09a55bf7 10027 127.0.0.1 10026 
-Jun 17 11:57:38.652 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 1 0 udp-a84a3695-af12-4341-8f82-c92e09a55bf7 
-Jun 17 11:57:38.668 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
-Jun 17 11:57:38.856 HYPERVISOR: exec_cmd: nio create_udp udp-b8da6e9f-9ed7-4904-bf98-6544d1c125a8 10037 127.0.0.1 10036 
-Jun 17 11:57:38.887 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 1 1 udp-b8da6e9f-9ed7-4904-bf98-6544d1c125a8 
-Jun 17 11:57:38.908 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
-Jun 17 11:57:39.314 HYPERVISOR: exec_cmd: nio create_udp udp-35cb1bfe-ad56-4d09-afeb-a7b06722b723 10054 127.0.0.1 10055 
-Jun 17 11:57:39.348 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 1 3 udp-35cb1bfe-ad56-4d09-afeb-a7b06722b723 
-Jun 17 11:57:39.376 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
-Jun 17 11:57:39.648 HYPERVISOR: exec_cmd: nio create_udp udp-d96eeab2-6dc6-46da-8d88-9ca45b637159 10062 127.0.0.1 10063 
-Jun 17 11:57:39.670 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 1 4 udp-d96eeab2-6dc6-46da-8d88-9ca45b637159 
-Jun 17 11:57:39.695 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
-Jun 17 11:57:39.933 HYPERVISOR: exec_cmd: nio create_udp udp-5a02ceb7-fcf2-4fff-9832-7cf7dab4acaf 10074 127.0.0.1 10075 
-Jun 17 11:57:39.962 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 1 5 udp-5a02ceb7-fcf2-4fff-9832-7cf7dab4acaf 
-Jun 17 11:57:39.990 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
-Jun 17 11:57:40.220 HYPERVISOR: exec_cmd: nio create_udp udp-2496107a-fee2-4eea-a922-c1028d0bc6b3 10086 127.0.0.1 10087 
-Jun 17 11:57:40.244 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 1 6 udp-2496107a-fee2-4eea-a922-c1028d0bc6b3 
-Jun 17 11:57:40.270 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
-Jun 17 11:57:40.699 HYPERVISOR: exec_cmd: nio create_udp udp-7af08350-a2c5-4c1e-a392-add60d899ef2 10105 127.0.0.1 10104 
-Jun 17 11:57:40.720 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 1 2 udp-7af08350-a2c5-4c1e-a392-add60d899ef2 
-Jun 17 11:57:40.738 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
-Jun 17 11:57:40.770 HYPERVISOR: exec_cmd: nio create_udp udp-62c62344-cf1b-491c-80fd-ced0f8013982 10106 127.0.0.1 10107 
-Jun 17 11:57:40.797 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 0 0 udp-62c62344-cf1b-491c-80fd-ced0f8013982 
-Jun 17 11:57:40.823 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
-Jun 17 11:57:41.017 HYPERVISOR: exec_cmd: nio create_udp udp-83508953-8e60-4f01-872c-afe90eb782aa 10116 127.0.0.1 10117 
-Jun 17 11:57:41.035 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 0 1 udp-83508953-8e60-4f01-872c-afe90eb782aa 
-Jun 17 11:57:41.051 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
-Jun 17 12:32:42.585 HYPERVISOR: exec_cmd: vm extract_config ESWCOREA1 
-Jun 17 13:19:54.694 HYPERVISOR: exec_cmd: vm extract_config ESWCOREA1 
-Jun 17 14:08:58.258 HYPERVISOR: exec_cmd: vm extract_config ESWCOREA1 
-Jun 17 14:16:54.693 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
-Jun 17 14:16:54.767 HYPERVISOR: exec_cmd: vm extract_config ESWCOREA1 
-Jun 17 14:16:54.844 HYPERVISOR: exec_cmd: vm delete ESWCOREA1 
-Jun 17 14:16:54.845 VM: VM ESWCOREA1 destroyed.
-Jun 17 14:16:54.928 HYPERVISOR: exec_cmd: hypervisor stop 
-Jun 17 14:16:55.353 HYPERVISOR: Stopped.
-Jun 17 14:16:55.353 GENERAL: reset done.
+Jun 20 11:30:09.507 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jun 20 11:30:09.507 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61711.
+Jun 20 11:30:09.620 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 20 11:30:09.640 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
+Jun 20 11:30:09.640 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
+Jun 20 11:30:09.656 HYPERVISOR: exec_cmd: vm create ESWCOREA1 9 c3725 
+Jun 20 11:30:09.656 VM: VM ESWCOREA1 created.
+Jun 20 11:30:09.673 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESWCOREA1 5009 
+Jun 20 11:30:09.690 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESWCOREA1 
+Jun 20 11:30:09.710 HYPERVISOR: exec_cmd: vm set_nvram ESWCOREA1 256 
+Jun 20 11:30:09.736 HYPERVISOR: exec_cmd: vm set_exec_area ESWCOREA1 64 
+Jun 20 11:30:09.766 HYPERVISOR: exec_cmd: vm set_ios ESWCOREA1 D:/Documentos/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 20 11:30:09.782 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
+Jun 20 11:30:09.802 HYPERVISOR: exec_cmd: vm slot_add_binding ESWCOREA1 1 0 NM-16ESW 
+Jun 20 11:30:09.818 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
+Jun 20 11:30:09.842 HYPERVISOR: exec_cmd: vm set_idle_pc ESWCOREA1 0x60a6a1e0 
+Jun 20 11:30:09.867 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESWCOREA1 c209.238c.0000 
+Jun 20 11:30:09.885 HYPERVISOR: exec_cmd: vm set_disk0 ESWCOREA1 1 
+Jun 20 11:30:09.905 HYPERVISOR: exec_cmd: vm set_config ESWCOREA1 configs/i9_startup-config.cfg 
+Jun 20 11:30:12.607 HYPERVISOR: exec_cmd: nio create_udp udp-aafc3ea8-5401-42cb-89a0-f18b79cca2c7 10024 127.0.0.1 10025 
+Jun 20 11:30:12.638 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 1 7 udp-aafc3ea8-5401-42cb-89a0-f18b79cca2c7 
+Jun 20 11:30:12.657 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
+Jun 20 11:30:12.694 HYPERVISOR: exec_cmd: nio create_udp udp-3684c75d-b05e-4521-beeb-6f359eef6f6f 10027 127.0.0.1 10026 
+Jun 20 11:30:12.722 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 1 0 udp-3684c75d-b05e-4521-beeb-6f359eef6f6f 
+Jun 20 11:30:12.748 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
+Jun 20 11:30:12.858 HYPERVISOR: exec_cmd: nio create_udp udp-7667e5f1-970d-484c-b402-3b671c86fd10 10035 127.0.0.1 10034 
+Jun 20 11:30:12.887 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 1 1 udp-7667e5f1-970d-484c-b402-3b671c86fd10 
+Jun 20 11:30:12.915 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
+Jun 20 11:30:13.454 HYPERVISOR: exec_cmd: nio create_udp udp-4249b073-212f-44fb-af9c-7b521e6537ec 10054 127.0.0.1 10055 
+Jun 20 11:30:13.483 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 1 3 udp-4249b073-212f-44fb-af9c-7b521e6537ec 
+Jun 20 11:30:13.503 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
+Jun 20 11:30:13.589 HYPERVISOR: exec_cmd: nio create_udp udp-6c58601f-ba52-422d-a052-1ec5226e3c0f 10060 127.0.0.1 10061 
+Jun 20 11:30:13.608 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 1 4 udp-6c58601f-ba52-422d-a052-1ec5226e3c0f 
+Jun 20 11:30:13.621 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
+Jun 20 11:30:13.851 HYPERVISOR: exec_cmd: nio create_udp udp-8f3b62f6-4376-49ef-a5f7-cdf085e753a0 10070 127.0.0.1 10071 
+Jun 20 11:30:13.880 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 1 5 udp-8f3b62f6-4376-49ef-a5f7-cdf085e753a0 
+Jun 20 11:30:13.899 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
+Jun 20 11:30:14.047 HYPERVISOR: exec_cmd: nio create_udp udp-704dfcff-a7b1-470c-b51b-d902324dd4fb 10080 127.0.0.1 10081 
+Jun 20 11:30:14.074 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 1 6 udp-704dfcff-a7b1-470c-b51b-d902324dd4fb 
+Jun 20 11:30:14.094 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
+Jun 20 11:30:14.644 HYPERVISOR: exec_cmd: nio create_udp udp-4ee58bb4-9013-4f3c-bdce-011e64adc4a0 10105 127.0.0.1 10104 
+Jun 20 11:30:14.660 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 1 2 udp-4ee58bb4-9013-4f3c-bdce-011e64adc4a0 
+Jun 20 11:30:14.676 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
+Jun 20 11:30:14.708 HYPERVISOR: exec_cmd: nio create_udp udp-5aa096d6-a6ad-41bf-986f-64f4e57d6d19 10106 127.0.0.1 10107 
+Jun 20 11:30:14.732 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 0 0 udp-5aa096d6-a6ad-41bf-986f-64f4e57d6d19 
+Jun 20 11:30:14.759 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
+Jun 20 11:30:14.931 HYPERVISOR: exec_cmd: nio create_udp udp-7a402b06-1c39-4a36-8eb4-661471aa4474 10116 127.0.0.1 10117 
+Jun 20 11:30:14.954 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESWCOREA1 0 1 udp-7a402b06-1c39-4a36-8eb4-661471aa4474 
+Jun 20 11:30:14.968 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
+Jun 20 11:31:00.853 HYPERVISOR: exec_cmd: vm set_ghost_status ESWCOREA1 2 
+Jun 20 11:31:00.876 HYPERVISOR: exec_cmd: vm set_ghost_file ESWCOREA1 c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 20 11:31:00.882 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
+Jun 20 11:31:00.887 HYPERVISOR: exec_cmd: vm start ESWCOREA1 
+Jun 20 12:20:30.871 HYPERVISOR: exec_cmd: vm extract_config ESWCOREA1 
+Jun 20 12:20:52.028 HYPERVISOR: exec_cmd: vm extract_config ESWCOREA1 
+Jun 20 12:27:53.430 HYPERVISOR: exec_cmd: vm extract_config ESWCOREA1 
+Jun 20 12:27:57.462 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
+Jun 20 12:27:57.468 HYPERVISOR: exec_cmd: vm stop ESWCOREA1 
+Jun 20 12:27:57.874 VM: VM ESWCOREA1 shutdown.
+Jun 20 12:27:57.877 HYPERVISOR: exec_cmd: vm extract_config ESWCOREA1 
+Jun 20 12:27:57.887 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
+Jun 20 12:27:57.900 HYPERVISOR: exec_cmd: vm start ESWCOREA1 
+Jun 20 12:28:17.391 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
+Jun 20 12:28:17.404 HYPERVISOR: exec_cmd: vm stop ESWCOREA1 
+Jun 20 12:28:17.699 VM: VM ESWCOREA1 shutdown.
+Jun 20 12:28:17.721 HYPERVISOR: exec_cmd: vm extract_config ESWCOREA1 
+Jun 20 12:28:19.842 HYPERVISOR: exec_cmd: vm get_status ESWCOREA1 
+Jun 20 12:28:19.912 HYPERVISOR: exec_cmd: vm extract_config ESWCOREA1 
+Jun 20 12:28:19.999 HYPERVISOR: exec_cmd: vm delete ESWCOREA1 
+Jun 20 12:28:19.999 VM: VM ESWCOREA1 destroyed.
+Jun 20 12:28:20.100 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 20 12:28:20.230 HYPERVISOR: Stopped.
+Jun 20 12:28:20.230 GENERAL: reset done.

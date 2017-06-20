@@ -1,43 +1,57 @@
-Jun 17 11:57:34.107 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
-Jun 17 11:57:34.108 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 64942.
-Jun 17 11:57:34.536 HYPERVISOR: exec_cmd: hypervisor version 
-Jun 17 11:57:34.548 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
-Jun 17 11:57:34.785 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
-Jun 17 11:57:34.793 HYPERVISOR: exec_cmd: vm create RCOREC2 2 c3725 
-Jun 17 11:57:34.794 VM: VM RCOREC2 created.
-Jun 17 11:57:34.819 HYPERVISOR: exec_cmd: vm set_con_tcp_port RCOREC2 5002 
-Jun 17 11:57:34.836 HYPERVISOR: exec_cmd: c3725 get_mac_addr RCOREC2 
-Jun 17 11:57:34.853 HYPERVISOR: exec_cmd: vm set_exec_area RCOREC2 64 
-Jun 17 11:57:34.869 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
-Jun 17 11:57:34.891 HYPERVISOR: exec_cmd: vm slot_add_binding RCOREC2 2 0 NM-1FE-TX 
-Jun 17 11:57:34.909 HYPERVISOR: exec_cmd: vm set_nvram RCOREC2 256 
-Jun 17 11:57:34.930 HYPERVISOR: exec_cmd: vm set_ios RCOREC2 D:/Documentos/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
-Jun 17 11:57:34.950 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
-Jun 17 11:57:34.971 HYPERVISOR: exec_cmd: vm set_idle_pc RCOREC2 0x60a6a1e0 
-Jun 17 11:57:34.993 HYPERVISOR: exec_cmd: c3725 set_mac_addr RCOREC2 c202.1c74.0000 
-Jun 17 11:57:35.022 HYPERVISOR: exec_cmd: vm set_disk0 RCOREC2 0 
-Jun 17 11:57:35.042 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
-Jun 17 11:57:35.058 HYPERVISOR: exec_cmd: vm slot_add_binding RCOREC2 1 0 NM-1FE-TX 
-Jun 17 11:57:35.090 HYPERVISOR: exec_cmd: vm set_config RCOREC2 configs/i2_startup-config.cfg 
-Jun 17 11:57:37.915 HYPERVISOR: exec_cmd: nio create_udp udp-4a35bcee-7d75-4c64-af24-04d14eff4c17 10004 127.0.0.1 10005 
-Jun 17 11:57:37.931 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RCOREC2 0 1 udp-4a35bcee-7d75-4c64-af24-04d14eff4c17 
-Jun 17 11:57:37.946 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
-Jun 17 11:57:38.031 HYPERVISOR: exec_cmd: nio create_udp udp-3b366adc-59c5-472c-a0e2-16905f033dee 10007 127.0.0.1 10006 
-Jun 17 11:57:38.055 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RCOREC2 0 0 udp-3b366adc-59c5-472c-a0e2-16905f033dee 
-Jun 17 11:57:38.075 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
-Jun 17 11:57:38.124 HYPERVISOR: exec_cmd: nio create_udp udp-62b58c4e-f41f-49a7-a5b3-6dd8f1fc6ac9 10011 127.0.0.1 10010 
-Jun 17 11:57:38.159 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RCOREC2 2 0 udp-62b58c4e-f41f-49a7-a5b3-6dd8f1fc6ac9 
-Jun 17 11:57:38.191 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
-Jun 17 11:57:38.279 HYPERVISOR: exec_cmd: nio create_udp udp-35212129-f165-40bd-b6d9-295e3eb2e768 10015 127.0.0.1 10014 
-Jun 17 11:57:38.303 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RCOREC2 1 0 udp-35212129-f165-40bd-b6d9-295e3eb2e768 
-Jun 17 11:57:38.328 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
-Jun 17 12:32:42.601 HYPERVISOR: exec_cmd: vm extract_config RCOREC2 
-Jun 17 13:19:54.712 HYPERVISOR: exec_cmd: vm extract_config RCOREC2 
-Jun 17 14:08:58.276 HYPERVISOR: exec_cmd: vm extract_config RCOREC2 
-Jun 17 14:16:54.688 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
-Jun 17 14:16:54.762 HYPERVISOR: exec_cmd: vm extract_config RCOREC2 
-Jun 17 14:16:54.840 HYPERVISOR: exec_cmd: vm delete RCOREC2 
-Jun 17 14:16:54.840 VM: VM RCOREC2 destroyed.
-Jun 17 14:16:54.924 HYPERVISOR: exec_cmd: hypervisor stop 
-Jun 17 14:16:55.279 HYPERVISOR: Stopped.
-Jun 17 14:16:55.279 GENERAL: reset done.
+Jun 20 11:30:08.874 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jun 20 11:30:08.875 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61697.
+Jun 20 11:30:08.954 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 20 11:30:08.972 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
+Jun 20 11:30:09.168 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
+Jun 20 11:30:09.177 HYPERVISOR: exec_cmd: vm create RCOREC2 2 c3725 
+Jun 20 11:30:09.178 VM: VM RCOREC2 created.
+Jun 20 11:30:09.188 HYPERVISOR: exec_cmd: vm set_con_tcp_port RCOREC2 5002 
+Jun 20 11:30:09.199 HYPERVISOR: exec_cmd: c3725 get_mac_addr RCOREC2 
+Jun 20 11:30:09.217 HYPERVISOR: exec_cmd: vm set_nvram RCOREC2 256 
+Jun 20 11:30:09.231 HYPERVISOR: exec_cmd: vm set_exec_area RCOREC2 64 
+Jun 20 11:30:09.260 HYPERVISOR: exec_cmd: vm set_ios RCOREC2 D:/Documentos/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 20 11:30:09.278 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 20 11:30:09.297 HYPERVISOR: exec_cmd: vm slot_add_binding RCOREC2 1 0 NM-1FE-TX 
+Jun 20 11:30:09.317 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 20 11:30:09.336 HYPERVISOR: exec_cmd: vm set_idle_pc RCOREC2 0x60a6a1e0 
+Jun 20 11:30:09.362 HYPERVISOR: exec_cmd: c3725 set_mac_addr RCOREC2 c202.1c74.0000 
+Jun 20 11:30:09.379 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 20 11:30:09.398 HYPERVISOR: exec_cmd: vm slot_add_binding RCOREC2 2 0 NM-1FE-TX 
+Jun 20 11:30:09.414 HYPERVISOR: exec_cmd: vm set_disk0 RCOREC2 0 
+Jun 20 11:30:09.432 HYPERVISOR: exec_cmd: vm set_config RCOREC2 configs/i2_startup-config.cfg 
+Jun 20 11:30:12.021 HYPERVISOR: exec_cmd: nio create_udp udp-0e4d5ce9-7701-4cbe-a0b8-b9754c341296 10004 127.0.0.1 10005 
+Jun 20 11:30:12.034 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RCOREC2 0 1 udp-0e4d5ce9-7701-4cbe-a0b8-b9754c341296 
+Jun 20 11:30:12.047 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 20 11:30:12.098 HYPERVISOR: exec_cmd: nio create_udp udp-f0e34d2a-9eaf-472d-ba86-2e1383bfcf14 10007 127.0.0.1 10006 
+Jun 20 11:30:12.116 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RCOREC2 0 0 udp-f0e34d2a-9eaf-472d-ba86-2e1383bfcf14 
+Jun 20 11:30:12.137 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 20 11:30:12.246 HYPERVISOR: exec_cmd: nio create_udp udp-7bbb61f8-8a20-4274-8a73-6f1928ad4d14 10011 127.0.0.1 10010 
+Jun 20 11:30:12.265 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RCOREC2 2 0 udp-7bbb61f8-8a20-4274-8a73-6f1928ad4d14 
+Jun 20 11:30:12.276 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 20 11:30:12.340 HYPERVISOR: exec_cmd: nio create_udp udp-5cd08ead-62f4-4e44-a690-32b51223a8e7 10015 127.0.0.1 10014 
+Jun 20 11:30:12.357 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RCOREC2 1 0 udp-5cd08ead-62f4-4e44-a690-32b51223a8e7 
+Jun 20 11:30:12.382 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 20 11:31:02.143 HYPERVISOR: exec_cmd: vm set_ghost_status RCOREC2 2 
+Jun 20 11:31:02.161 HYPERVISOR: exec_cmd: vm set_ghost_file RCOREC2 c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 20 11:31:02.166 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 20 11:31:02.175 HYPERVISOR: exec_cmd: vm start RCOREC2 
+Jun 20 12:20:30.895 HYPERVISOR: exec_cmd: vm extract_config RCOREC2 
+Jun 20 12:20:52.042 HYPERVISOR: exec_cmd: vm extract_config RCOREC2 
+Jun 20 12:27:53.444 HYPERVISOR: exec_cmd: vm extract_config RCOREC2 
+Jun 20 12:27:59.915 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 20 12:27:59.928 HYPERVISOR: exec_cmd: vm stop RCOREC2 
+Jun 20 12:28:00.254 VM: VM RCOREC2 shutdown.
+Jun 20 12:28:00.266 HYPERVISOR: exec_cmd: vm extract_config RCOREC2 
+Jun 20 12:28:00.288 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 20 12:28:00.313 HYPERVISOR: exec_cmd: vm start RCOREC2 
+Jun 20 12:28:17.665 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 20 12:28:17.671 HYPERVISOR: exec_cmd: vm stop RCOREC2 
+Jun 20 12:28:17.824 VM: VM RCOREC2 shutdown.
+Jun 20 12:28:17.827 HYPERVISOR: exec_cmd: vm extract_config RCOREC2 
+Jun 20 12:28:19.834 HYPERVISOR: exec_cmd: vm get_status RCOREC2 
+Jun 20 12:28:19.905 HYPERVISOR: exec_cmd: vm extract_config RCOREC2 
+Jun 20 12:28:19.982 HYPERVISOR: exec_cmd: vm delete RCOREC2 
+Jun 20 12:28:19.982 VM: VM RCOREC2 destroyed.
+Jun 20 12:28:20.093 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 20 12:28:20.427 HYPERVISOR: Stopped.
+Jun 20 12:28:20.427 GENERAL: reset done.

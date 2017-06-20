@@ -1,45 +1,54 @@
-Jun 17 11:57:34.120 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
-Jun 17 11:57:34.120 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 64944.
-Jun 17 11:57:34.555 HYPERVISOR: exec_cmd: hypervisor version 
-Jun 17 11:57:34.560 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
-Jun 17 11:57:34.853 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
-Jun 17 11:57:34.871 HYPERVISOR: exec_cmd: vm create ISPUS2 4 c3725 
-Jun 17 11:57:34.872 VM: VM ISPUS2 created.
-Jun 17 11:57:34.894 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISPUS2 5004 
-Jun 17 11:57:34.911 HYPERVISOR: exec_cmd: c3725 get_mac_addr ISPUS2 
-Jun 17 11:57:34.932 HYPERVISOR: exec_cmd: vm set_exec_area ISPUS2 64 
-Jun 17 11:57:34.953 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
-Jun 17 11:57:34.973 HYPERVISOR: exec_cmd: vm slot_add_binding ISPUS2 2 0 NM-1FE-TX 
-Jun 17 11:57:34.995 HYPERVISOR: exec_cmd: vm set_nvram ISPUS2 256 
-Jun 17 11:57:35.025 HYPERVISOR: exec_cmd: vm set_ios ISPUS2 D:/Documentos/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
-Jun 17 11:57:35.044 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
-Jun 17 11:57:35.060 HYPERVISOR: exec_cmd: vm set_idle_pc ISPUS2 0x60a6a1e0 
-Jun 17 11:57:35.093 HYPERVISOR: exec_cmd: c3725 set_mac_addr ISPUS2 c204.35d8.0000 
-Jun 17 11:57:35.126 HYPERVISOR: exec_cmd: vm set_disk0 ISPUS2 0 
-Jun 17 11:57:35.147 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
-Jun 17 11:57:35.177 HYPERVISOR: exec_cmd: vm slot_add_binding ISPUS2 1 0 NM-1FE-TX 
-Jun 17 11:57:35.203 HYPERVISOR: exec_cmd: vm set_config ISPUS2 configs/i4_startup-config.cfg 
-Jun 17 11:57:38.266 HYPERVISOR: exec_cmd: nio create_udp udp-7c9f387e-971f-4ff1-8781-775548ad2a99 10014 127.0.0.1 10015 
-Jun 17 11:57:38.297 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISPUS2 1 0 udp-7c9f387e-971f-4ff1-8781-775548ad2a99 
-Jun 17 11:57:38.323 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
-Jun 17 11:57:38.386 HYPERVISOR: exec_cmd: nio create_udp udp-dacc3abf-6bf9-4bbd-8af5-a9e7d6361216 10017 127.0.0.1 10016 
-Jun 17 11:57:38.418 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISPUS2 0 0 udp-dacc3abf-6bf9-4bbd-8af5-a9e7d6361216 
-Jun 17 11:57:38.434 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
-Jun 17 11:57:38.463 HYPERVISOR: exec_cmd: nio create_udp udp-8a1b01e0-c4e8-4c81-8aa9-737e123c61a8 10018 127.0.0.1 10019 
-Jun 17 11:57:38.490 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISPUS2 2 0 udp-8a1b01e0-c4e8-4c81-8aa9-737e123c61a8 
-Jun 17 11:57:38.526 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
-Jun 17 12:32:42.597 HYPERVISOR: exec_cmd: vm extract_config ISPUS2 
-Jun 17 13:16:11.619 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
-Jun 17 13:16:11.624 HYPERVISOR: exec_cmd: vm set_idle_pc ISPUS2 0x0 
-Jun 17 13:16:11.628 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
-Jun 17 13:18:15.277 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
-Jun 17 13:18:15.342 HYPERVISOR: exec_cmd: vm set_idle_pc ISPUS2 0x60a6a1e0 
-Jun 17 13:19:54.708 HYPERVISOR: exec_cmd: vm extract_config ISPUS2 
-Jun 17 14:08:58.271 HYPERVISOR: exec_cmd: vm extract_config ISPUS2 
-Jun 17 14:16:54.670 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
-Jun 17 14:16:54.749 HYPERVISOR: exec_cmd: vm extract_config ISPUS2 
-Jun 17 14:16:54.822 HYPERVISOR: exec_cmd: vm delete ISPUS2 
-Jun 17 14:16:54.823 VM: VM ISPUS2 destroyed.
-Jun 17 14:16:54.910 HYPERVISOR: exec_cmd: hypervisor stop 
-Jun 17 14:16:55.351 HYPERVISOR: Stopped.
-Jun 17 14:16:55.351 GENERAL: reset done.
+Jun 20 11:30:08.926 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jun 20 11:30:08.927 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61699.
+Jun 20 11:30:08.964 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 20 11:30:08.982 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
+Jun 20 11:30:09.218 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
+Jun 20 11:30:09.233 HYPERVISOR: exec_cmd: vm create ISPUS2 4 c3725 
+Jun 20 11:30:09.234 VM: VM ISPUS2 created.
+Jun 20 11:30:09.263 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISPUS2 5004 
+Jun 20 11:30:09.280 HYPERVISOR: exec_cmd: c3725 get_mac_addr ISPUS2 
+Jun 20 11:30:09.299 HYPERVISOR: exec_cmd: vm set_nvram ISPUS2 256 
+Jun 20 11:30:09.320 HYPERVISOR: exec_cmd: vm set_exec_area ISPUS2 64 
+Jun 20 11:30:09.338 HYPERVISOR: exec_cmd: vm set_ios ISPUS2 D:/Documentos/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 20 11:30:09.364 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
+Jun 20 11:30:09.382 HYPERVISOR: exec_cmd: vm slot_add_binding ISPUS2 1 0 NM-1FE-TX 
+Jun 20 11:30:09.400 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
+Jun 20 11:30:09.416 HYPERVISOR: exec_cmd: vm set_idle_pc ISPUS2 0x60a6a1e0 
+Jun 20 11:30:09.434 HYPERVISOR: exec_cmd: c3725 set_mac_addr ISPUS2 c204.35d8.0000 
+Jun 20 11:30:09.455 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
+Jun 20 11:30:09.472 HYPERVISOR: exec_cmd: vm slot_add_binding ISPUS2 2 0 NM-1FE-TX 
+Jun 20 11:30:09.502 HYPERVISOR: exec_cmd: vm set_disk0 ISPUS2 0 
+Jun 20 11:30:09.524 HYPERVISOR: exec_cmd: vm set_config ISPUS2 configs/i4_startup-config.cfg 
+Jun 20 11:30:12.330 HYPERVISOR: exec_cmd: nio create_udp udp-8c48c846-8ac9-41b5-81cc-d55b633aff63 10014 127.0.0.1 10015 
+Jun 20 11:30:12.350 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISPUS2 1 0 udp-8c48c846-8ac9-41b5-81cc-d55b633aff63 
+Jun 20 11:30:12.376 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
+Jun 20 11:30:12.430 HYPERVISOR: exec_cmd: nio create_udp udp-fd888f11-45a0-435a-b119-0afebabbde6b 10017 127.0.0.1 10016 
+Jun 20 11:30:12.452 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISPUS2 0 0 udp-fd888f11-45a0-435a-b119-0afebabbde6b 
+Jun 20 11:30:12.468 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
+Jun 20 11:30:12.497 HYPERVISOR: exec_cmd: nio create_udp udp-c868b6c1-5278-479b-9f2f-10ce9be8fb89 10018 127.0.0.1 10019 
+Jun 20 11:30:12.522 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISPUS2 2 0 udp-c868b6c1-5278-479b-9f2f-10ce9be8fb89 
+Jun 20 11:30:12.547 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
+Jun 20 11:31:01.761 HYPERVISOR: exec_cmd: vm set_ghost_status ISPUS2 2 
+Jun 20 11:31:01.766 HYPERVISOR: exec_cmd: vm set_ghost_file ISPUS2 c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 20 11:31:01.771 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
+Jun 20 11:31:01.777 HYPERVISOR: exec_cmd: vm start ISPUS2 
+Jun 20 12:20:30.909 HYPERVISOR: exec_cmd: vm extract_config ISPUS2 
+Jun 20 12:20:52.049 HYPERVISOR: exec_cmd: vm extract_config ISPUS2 
+Jun 20 12:27:53.451 HYPERVISOR: exec_cmd: vm extract_config ISPUS2 
+Jun 20 12:27:57.638 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
+Jun 20 12:27:57.655 HYPERVISOR: exec_cmd: vm stop ISPUS2 
+Jun 20 12:27:57.812 VM: VM ISPUS2 shutdown.
+Jun 20 12:27:57.821 HYPERVISOR: exec_cmd: vm extract_config ISPUS2 
+Jun 20 12:27:57.832 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
+Jun 20 12:27:57.837 HYPERVISOR: exec_cmd: vm start ISPUS2 
+Jun 20 12:28:17.527 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
+Jun 20 12:28:17.531 HYPERVISOR: exec_cmd: vm stop ISPUS2 
+Jun 20 12:28:17.693 VM: VM ISPUS2 shutdown.
+Jun 20 12:28:17.715 HYPERVISOR: exec_cmd: vm extract_config ISPUS2 
+Jun 20 12:28:19.867 HYPERVISOR: exec_cmd: vm get_status ISPUS2 
+Jun 20 12:28:19.938 HYPERVISOR: exec_cmd: vm extract_config ISPUS2 
+Jun 20 12:28:20.043 HYPERVISOR: exec_cmd: vm delete ISPUS2 
+Jun 20 12:28:20.044 VM: VM ISPUS2 destroyed.
+Jun 20 12:28:20.119 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 20 12:28:20.502 HYPERVISOR: Stopped.
+Jun 20 12:28:20.502 GENERAL: reset done.

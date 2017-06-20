@@ -1,22 +1,22 @@
-Jun 17 11:57:36.790 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
-Jun 17 11:57:36.791 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 64993.
-Jun 17 11:57:36.885 HYPERVISOR: exec_cmd: hypervisor version 
-Jun 17 11:57:36.906 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
-Jun 17 11:57:36.907 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
-Jun 17 11:57:36.932 HYPERVISOR: exec_cmd: ethsw create SW8 
-Jun 17 11:57:40.533 HYPERVISOR: exec_cmd: nio create_udp udp-98dd2bcb-613c-4da8-93dd-bd6a448796f4 10099 127.0.0.1 10098 
-Jun 17 11:57:40.554 HYPERVISOR: exec_cmd: ethsw add_nio SW8 udp-98dd2bcb-613c-4da8-93dd-bd6a448796f4 
-Jun 17 11:57:40.591 HYPERVISOR: exec_cmd: ethsw set_access_port SW8 udp-98dd2bcb-613c-4da8-93dd-bd6a448796f4 1 
-Jun 17 11:57:40.617 HYPERVISOR: exec_cmd: nio create_udp udp-580ed6eb-a77b-4a7d-8d59-771c0a0b658c 10101 127.0.0.1 10100 
-Jun 17 11:57:40.634 HYPERVISOR: exec_cmd: ethsw add_nio SW8 udp-580ed6eb-a77b-4a7d-8d59-771c0a0b658c 
-Jun 17 11:57:40.662 HYPERVISOR: exec_cmd: ethsw set_access_port SW8 udp-580ed6eb-a77b-4a7d-8d59-771c0a0b658c 1 
-Jun 17 11:57:40.689 HYPERVISOR: exec_cmd: nio create_udp udp-12b8c568-b013-49ed-9a83-b360e07ab2cd 10102 127.0.0.1 10103 
-Jun 17 11:57:40.716 HYPERVISOR: exec_cmd: ethsw add_nio SW8 udp-12b8c568-b013-49ed-9a83-b360e07ab2cd 
-Jun 17 11:57:40.735 HYPERVISOR: exec_cmd: ethsw set_access_port SW8 udp-12b8c568-b013-49ed-9a83-b360e07ab2cd 1 
-Jun 17 11:57:40.762 HYPERVISOR: exec_cmd: nio create_udp udp-3d4f6383-f9d5-466b-8bce-1eec66d66c64 10104 127.0.0.1 10105 
-Jun 17 11:57:40.786 HYPERVISOR: exec_cmd: ethsw add_nio SW8 udp-3d4f6383-f9d5-466b-8bce-1eec66d66c64 
-Jun 17 11:57:40.825 HYPERVISOR: exec_cmd: ethsw set_access_port SW8 udp-3d4f6383-f9d5-466b-8bce-1eec66d66c64 1 
-Jun 17 14:16:53.953 HYPERVISOR: exec_cmd: ethsw delete SW8 
-Jun 17 14:16:54.024 HYPERVISOR: exec_cmd: hypervisor stop 
-Jun 17 14:16:54.058 HYPERVISOR: Stopped.
-Jun 17 14:16:54.058 GENERAL: reset done.
+Jun 20 11:30:10.943 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jun 20 11:30:10.943 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61743.
+Jun 20 11:30:11.037 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 20 11:30:11.060 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Projeto AR\Projeto\project-files\dynamips 
+Jun 20 11:30:11.060 GENERAL: working_dir=D:\Documentos\Projeto AR\Projeto\project-files\dynamips
+Jun 20 11:30:11.083 HYPERVISOR: exec_cmd: ethsw create SW8 
+Jun 20 11:30:14.462 HYPERVISOR: exec_cmd: nio create_udp udp-f94d5518-6944-4711-853b-5045e199ae0b 10099 127.0.0.1 10098 
+Jun 20 11:30:14.471 HYPERVISOR: exec_cmd: ethsw add_nio SW8 udp-f94d5518-6944-4711-853b-5045e199ae0b 
+Jun 20 11:30:14.506 HYPERVISOR: exec_cmd: ethsw set_access_port SW8 udp-f94d5518-6944-4711-853b-5045e199ae0b 1 
+Jun 20 11:30:14.534 HYPERVISOR: exec_cmd: nio create_udp udp-4880fccf-81c2-439f-be38-80ce429e0f4d 10101 127.0.0.1 10100 
+Jun 20 11:30:14.550 HYPERVISOR: exec_cmd: ethsw add_nio SW8 udp-4880fccf-81c2-439f-be38-80ce429e0f4d 
+Jun 20 11:30:14.587 HYPERVISOR: exec_cmd: ethsw set_access_port SW8 udp-4880fccf-81c2-439f-be38-80ce429e0f4d 1 
+Jun 20 11:30:14.615 HYPERVISOR: exec_cmd: nio create_udp udp-f5e8721d-3407-4018-b35a-3f72ee6ef162 10102 127.0.0.1 10103 
+Jun 20 11:30:14.634 HYPERVISOR: exec_cmd: ethsw add_nio SW8 udp-f5e8721d-3407-4018-b35a-3f72ee6ef162 
+Jun 20 11:30:14.665 HYPERVISOR: exec_cmd: ethsw set_access_port SW8 udp-f5e8721d-3407-4018-b35a-3f72ee6ef162 1 
+Jun 20 11:30:14.689 HYPERVISOR: exec_cmd: nio create_udp udp-8529a21c-bea9-448b-8a04-270ab70c5720 10104 127.0.0.1 10105 
+Jun 20 11:30:14.716 HYPERVISOR: exec_cmd: ethsw add_nio SW8 udp-8529a21c-bea9-448b-8a04-270ab70c5720 
+Jun 20 11:30:14.749 HYPERVISOR: exec_cmd: ethsw set_access_port SW8 udp-8529a21c-bea9-448b-8a04-270ab70c5720 1 
+Jun 20 12:28:19.165 HYPERVISOR: exec_cmd: ethsw delete SW8 
+Jun 20 12:28:19.247 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 20 12:28:19.549 HYPERVISOR: Stopped.
+Jun 20 12:28:19.549 GENERAL: reset done.
